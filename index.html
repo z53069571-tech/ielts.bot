@@ -400,9 +400,9 @@ html.light .btn:not(.ghost),html.light .av,html.light .wt,html.light .ib,html.li
 <script>
 try{ if(localStorage.getItem("ielts_theme")==="light") document.documentElement.classList.add("light"); }catch(e){}
 /* ================= SOZLAMALAR ================= */
-const BOT_USERNAME = "YOUR_BOT_USERNAME";   // @ siz
+const BOT_USERNAME = "ZMIELTS_bot";
 const API_BASE = "";  // backend manzili, masalan "https://api.sizning-domen.uz". Bo'sh bo'lsa bot oflayn (localStorage) rejimida ishlaydi
-const DEV_UNLIMITED = true; // sinov uchun: limitni o'chiradi. Tayyor bo'lganda false qiling
+const DEV_UNLIMITED = false; // sinov uchun: limitni o'chiradi. Tayyor bo'lganda false qiling
 const FREE_DAILY = DEV_UNLIMITED ? 999 : 5;                        // kunlik bepul mashqlar (Vocabulary cheksiz)
 const REDUCED = window.matchMedia && matchMedia("(prefers-reduced-motion: reduce)").matches;
 
