@@ -3,7 +3,27 @@
 import json, os, random, re, sys, urllib.request, datetime
 
 KEY = os.environ.get("GEMINI_API_KEY")
-MODEL = os.environ.get("GEMINI_MODEL", "gemini-2.5-flash")  # bepul limit va model nomlari o'zgarishi mumkin
+def pick_model():
+    m = os.environ.get("GEMINI_MODEL")
+    if m: return m
+    try:
+        req = urllib.request.Request("https://generativelanguage.googleapis.com/v1beta/models?pageSize=200",
+                                     headers={"x-goog-api-key": KEY or ""})
+        with urllib.request.urlopen(req, timeout=60) as r:
+            ms = json.load(r).get("models", [])
+        names = [x["name"].split("/")[-1] for x in ms if "generateContent" in x.get("supportedMethods", x.get("supportedGenerationMethods", []))]
+        bad = ("lite", "image", "tts", "live", "audio", "embed", "thinking", "exp", "latest", "vision", "robotics", "computer")
+        good = [n for n in names if "flash" in n and not any(b in n for b in bad)]
+        ver = lambda n: [float(v) for v in re.findall(r"\d+(?:\.\d+)?", n)[:1]] or [0]
+        good.sort(key=lambda n: (ver(n), "preview" not in n), reverse=True)
+        if good: return good[0]
+        if names: return names[0]
+    except Exception as e:
+        print("model ro'yxati olinmadi:", e)
+    return "gemini-2.5-flash"
+
+MODEL = pick_model()
+print("Model:", MODEL)
 PATH = os.environ.get("CONTENT_PATH", "content.json")
 KEEP = {"words": 200, "listening": 40, "reading": 40, "grammar": 40, "writing": 80}
 TODAY = datetime.date.today()
