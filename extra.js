@@ -11,14 +11,14 @@
                           const r = await fetch(API_BASE + "/api/essay", { method: "POST", signal: c0.signal,
                                   headers: { "Content-Type": "application/json", "X-Telegram-Init-Data": (typeof tg !== "undefined" && tg && tg.initData) || "" },
                                           body: JSON.stringify({ task, text }) });
-                                                if (!r.ok) throw new Error("HTTP " + r.status);
+                                                if (!r.ok) { let j = {}; try { j = await r.json(); } catch (_) {} throw new Error("HTTP " + r.status + (j.error ? ": " + j.error : "")); }
                                                       const d = await r.json(), c = d.criteria || {};
                                                             const row = (k, v) => v == null ? "" : `<div style="display:flex;justify-content:space-between;padding:4px 0"><span>${k}</span><b>${esc(v)}</b></div>`;
                                                                   el.innerHTML = `<p style="color:#fff;font-size:18px;margin-bottom:8px">Taxminiy band: <b style="color:var(--saf)">${esc(d.band)}</b></p>
                                                                           ${row("Task Response", c.ta)}${row("Coherence & Cohesion", c.cc)}${row("Lexical Resource", c.lr)}${row("Grammar", c.gra)}
                                                                                   ${d.feedback ? `<p style="margin-top:10px;color:#fff;text-align:left;white-space:pre-wrap">${esc(d.feedback)}</p>` : ""}`;
                                                                                       } catch (e) {
-                                                                                            el.textContent = "Baholash hozir ishlamayapti (botni Telegram ichida oching). Keyinroq urinib ko'ring.";
+                                                                                            el.textContent = "Baholash ishlamadi: " + (e.name === "AbortError" ? "vaqt tugadi" : e.message) + ". Keyinroq urinib ko'ring.";
                                                                                                 } finally { clearTimeout(t); }
                                                                                                   }
 
