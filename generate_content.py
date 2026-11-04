@@ -2,6 +2,9 @@
 """Har kuni content.json ga yangi IELTS kontent qo'shadi (Gemini API, standart kutubxonalar bilan)."""
 import json, os, random, re, sys, time, urllib.request, urllib.error, datetime
 
+sys.stdout.reconfigure(line_buffering=True)   # loglar darhol ko'rinsin
+DEADLINE = time.time() + 600                  # jami 10 daqiqadan keyin to'xtaydi
+
 KEY = os.environ.get("GEMINI_API_KEY")
 PATH = os.environ.get("CONTENT_PATH", "content.json")
 KEEP = {"words": 200, "listening": 40, "reading": 40, "grammar": 40, "writing": 80}
@@ -16,7 +19,7 @@ theme = THEMES[TODAY.toordinal() % len(THEMES)]
 level = TODAY.toordinal() % 3 + 1  # 1 boshlang'ich, 2 o'rta, 3 yuqori
 
 def list_models():
-    """Kalitingizga ruxsat etilgan flash modellar, eng yangisi va barqarorlari oldinda."""
+    """Kalitingizga ruxsat etilgan flash modellar, barqarorlari oldinda."""
     env = os.environ.get("GEMINI_MODEL")
     if env: return [env]
     try:
@@ -28,8 +31,8 @@ def list_models():
         bad = ("lite", "image", "tts", "live", "audio", "embed", "thinking", "exp", "latest", "vision", "robotics", "computer")
         good = [n for n in names if "flash" in n and not any(b in n for b in bad)]
         ver = lambda n: float((re.findall(r"\d+(?:\.\d+)?", n) or ["0"])[0])
-        good.sort(key=lambda n: (ver(n), "preview" not in n), reverse=True)
-        if good: return good[:4]
+        good.sort(key=lambda n: ("preview" not in n, ver(n)), reverse=True)   # avval barqaror modellar
+        if good: return good[:3]
     except Exception as e:
         print("model ro'yxati olinmadi:", e)
     return ["gemini-2.5-flash"]
@@ -42,23 +45,24 @@ def ask(prompt):
             "generationConfig": {"responseMimeType": "application/json", "temperature": 0.9}}
     last = None
     for model in MODELS:                      # band yoki yo'q model bo'lsa, keyingisiga o'tadi
+        if time.time() > DEADLINE: raise RuntimeError("vaqt tugadi")
         url = f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent"
-        for attempt in range(3):              # vaqtincha xatolarda qayta urinadi
+        for attempt in range(2):              # vaqtincha xatolarda bir marta qayta urinadi
             try:
                 req = urllib.request.Request(url, json.dumps(body).encode(),
                                              {"Content-Type": "application/json", "x-goog-api-key": KEY})
-                with urllib.request.urlopen(req, timeout=120) as r:
+                with urllib.request.urlopen(req, timeout=50) as r:
                     data = json.load(r)
                 txt = data["candidates"][0]["content"]["parts"][0]["text"]
                 return json.loads(re.sub(r"^```(?:json)?|```$", "", txt.strip(), flags=re.M).strip())
             except urllib.error.HTTPError as e:
                 last = f"{model}: HTTP {e.code}"
-                if e.code in (429, 500, 502, 503, 504) and attempt < 2:
-                    time.sleep(8 * (attempt + 1)); continue
+                if e.code in (429, 500, 502, 503, 504) and attempt < 1:
+                    time.sleep(10); continue
                 break                          # 404/400 va h.k.: bu modelni tashlab, keyingisiga
             except (urllib.error.URLError, TimeoutError, ValueError, KeyError, IndexError) as e:
                 last = f"{model}: {type(e).__name__}"
-                if attempt < 2: time.sleep(5); continue
+                if attempt < 1: time.sleep(5); continue
                 break
     raise RuntimeError(last or "javob olinmadi")
 
@@ -135,7 +139,7 @@ def main():
         if name != "words" and name != "writing" and any(i.get("id", "").endswith(STAMP) for i in db[name]):
             print(name, "- bugun allaqachon bor"); continue
         try: before = len(db[name]); fn(); print(name, "+", len(db[name]) - before)
-        except Exception as e: print(name, "xato:", e)  # bitta bo'lim xato bersa, qolganlari davom etadi
+        except Exception as e: print(name, "xato:", e, flush=True)  # bitta bo'lim xato bersa, qolganlari davom etadi
     added = sum(len(db[k]) for k in KEEP) - before_total
     for k, n in KEEP.items(): db[k] = db[k][-n:]
     json.dump(db, open(PATH, "w", encoding="utf8"), ensure_ascii=False, indent=1)
