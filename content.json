@@ -315,6 +315,69 @@
      "exp": "Unless + Present, will + fe'l."
     }
    ]
+  },
+  {
+   "id": "gg20261104",
+   "title": "Modal fe'llar bo'yicha grammatika testlari",
+   "meta": "Modal verbs · 5 ta savol",
+   "lv": 2,
+   "items": [
+    {
+     "q": "The streets are completely wet this morning. It ___ heavily during the night.",
+     "opts": [
+      "must have rained",
+      "should have rained",
+      "can rain",
+      "might rain"
+     ],
+     "ans": 0,
+     "exp": "Ertalab ko'chalar ho'l bo'lgani uchun tunda yomg'ir yog'gani aniq (o'tgan zamondagi ishonch) va buning uchun 'must have + V3' ishlatiladi."
+    },
+    {
+     "q": "I failed my IELTS listening module. I ___ more attention to the audio distractors.",
+     "opts": [
+      "must pay",
+      "should have paid",
+      "might have paid",
+      "could pay"
+     ],
+     "ans": 1,
+     "exp": "O'tgan zamonda bajarilmagan, lekin bajarilishi kerak bo'lgan ish-harakat yoki afsuslanishni bildirish uchun 'should have + V3' strukturasi qo'llaniladi."
+    },
+    {
+     "q": "Sarah hasn't arrived yet. She ___ the wrong train, but I am not entirely sure.",
+     "opts": [
+      "might have caught",
+      "must catch",
+      "should catch",
+      "has to catch"
+     ],
+     "ans": 0,
+     "exp": "O'tgan zamondagi noaniq ehtimollikni bildirish uchun 'might have + V3' birikmasi ishlatiladi."
+    },
+    {
+     "q": "You ___ submit your essay today; the professor extended the deadline until Friday.",
+     "opts": [
+      "couldn't",
+      "don't have to",
+      "must not",
+      "shouldn't have"
+     ],
+     "ans": 1,
+     "exp": "Topshirish muddati uzaytirilgani sababli bugun insho topshirish majburiy emas. Majburiyat yo'qligini ko'rsatish uchun 'don't have to' ishlatiladi."
+    },
+    {
+     "q": "Despite the heavy traffic, we ___ reach the test center just in time.",
+     "opts": [
+      "were able to",
+      "should have",
+      "could",
+      "must"
+     ],
+     "ans": 0,
+     "exp": "O'tmishda qiyin bir vaziyatda biror aniq ishni uddalash yoki bajarishga erishish uchun 'was/were able to' qo'llaniladi."
+    }
+   ]
   }
  ],
  "words": [
@@ -409,7 +472,9 @@
   "Many people now work from home. Discuss the advantages and disadvantages of this trend.",
   "In many countries, young people spend too much time on social media. What problems does this cause and what can be done?",
   "Some people think university education should be free for everyone. Others think students should pay. Discuss both views and give your opinion.",
-  "Nowadays more people choose to live alone. Is this a positive or negative development?"
+  "Nowadays more people choose to live alone. Is this a positive or negative development?",
+  "Some people believe that traveling to foreign countries is essential for broadening a person's horizons, while others argue that modern technology allows people to experience different cultures without leaving home. Discuss both views and give your opinion.",
+  "Popular tourist destinations around the world are increasingly suffering from overcrowding and environmental degradation. What problems does this cause, and what solutions can be implemented to address this issue?"
  ],
  "speaking": [
   "Describe a teacher who influenced you.\nYou should say: who this person was, what they taught you, how they behaved in class, and explain why they influenced you.",
