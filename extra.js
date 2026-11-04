@@ -1,8 +1,9 @@
 /* extra.js: Writing essay'ni AI baholashga ulaydi (Cloudflare Worker). index.html ga tegmaydi */
 (function () {
   "use strict";
-    const API_BASE = "https://ielts-api.z53069571.workers.dev";   // <-- shu yerga Worker manzilini yozing: "https://ielts-api.NOM.workers.dev" (oxirida / bo'lmasin)
+    const API_BASE = "https://ielts-api.z53069571.workers.dev";
       const API_ON = /^https:\/\//.test(API_BASE);
+
         async function evalEssay(task, text) {
             const el = document.getElementById("aiRes"); if (!el) return;
                 const c0 = new AbortController(), t = setTimeout(() => c0.abort(), 60000);
@@ -31,7 +32,7 @@
                                                                                                                                 const ta = document.getElementById("essay"), tk = document.getElementById("tk");
                                                                                                                                       const text = ta ? ta.value : "", task = tk ? tk.textContent : "";
                                                                                                                                             origSend.apply(this, arguments);
-                                                                                                                                                  const p = [...document.querySelectorAll("#view p.sub")].find(el => /band baholash keyingi/.test(el.textContent));
+                                                                                                                                                  const p = [...document.querySelectorAll("#view .sub")].find(el => /band baholash keyingi|tekshirilmoqda/.test(el.textContent));
                                                                                                                                                         if (p && API_ON) { p.id = "aiRes"; p.textContent = "Essay tekshirilmoqda (bir necha soniya)..."; evalEssay(task, text); }
                                                                                                                                                             };
                                                                                                                                                               }
