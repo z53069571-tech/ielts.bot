@@ -1,29 +1,8 @@
 #!/usr/bin/env python3
 """Har kuni content.json ga yangi IELTS kontent qo'shadi (Gemini API, standart kutubxonalar bilan)."""
-import json, os, random, re, sys, urllib.request, datetime
+import json, os, random, re, sys, time, urllib.request, urllib.error, datetime
 
 KEY = os.environ.get("GEMINI_API_KEY")
-def pick_model():
-    m = os.environ.get("GEMINI_MODEL")
-    if m: return m
-    try:
-        req = urllib.request.Request("https://generativelanguage.googleapis.com/v1beta/models?pageSize=200",
-                                     headers={"x-goog-api-key": KEY or ""})
-        with urllib.request.urlopen(req, timeout=60) as r:
-            ms = json.load(r).get("models", [])
-        names = [x["name"].split("/")[-1] for x in ms if "generateContent" in x.get("supportedMethods", x.get("supportedGenerationMethods", []))]
-        bad = ("lite", "image", "tts", "live", "audio", "embed", "thinking", "exp", "latest", "vision", "robotics", "computer")
-        good = [n for n in names if "flash" in n and not any(b in n for b in bad)]
-        ver = lambda n: [float(v) for v in re.findall(r"\d+(?:\.\d+)?", n)[:1]] or [0]
-        good.sort(key=lambda n: (ver(n), "preview" not in n), reverse=True)
-        if good: return good[0]
-        if names: return names[0]
-    except Exception as e:
-        print("model ro'yxati olinmadi:", e)
-    return "gemini-2.5-flash"
-
-MODEL = pick_model()
-print("Model:", MODEL)
 PATH = os.environ.get("CONTENT_PATH", "content.json")
 KEEP = {"words": 200, "listening": 40, "reading": 40, "grammar": 40, "writing": 80}
 TODAY = datetime.date.today()
@@ -36,15 +15,52 @@ GRAM = ["Present Perfect vs Past Simple", "Conditionals", "Passive voice", "Rela
 theme = THEMES[TODAY.toordinal() % len(THEMES)]
 level = TODAY.toordinal() % 3 + 1  # 1 boshlang'ich, 2 o'rta, 3 yuqori
 
+def list_models():
+    """Kalitingizga ruxsat etilgan flash modellar, eng yangisi va barqarorlari oldinda."""
+    env = os.environ.get("GEMINI_MODEL")
+    if env: return [env]
+    try:
+        req = urllib.request.Request("https://generativelanguage.googleapis.com/v1beta/models?pageSize=200",
+                                     headers={"x-goog-api-key": KEY or ""})
+        with urllib.request.urlopen(req, timeout=60) as r:
+            ms = json.load(r).get("models", [])
+        names = [x["name"].split("/")[-1] for x in ms if "generateContent" in x.get("supportedGenerationMethods", [])]
+        bad = ("lite", "image", "tts", "live", "audio", "embed", "thinking", "exp", "latest", "vision", "robotics", "computer")
+        good = [n for n in names if "flash" in n and not any(b in n for b in bad)]
+        ver = lambda n: float((re.findall(r"\d+(?:\.\d+)?", n) or ["0"])[0])
+        good.sort(key=lambda n: (ver(n), "preview" not in n), reverse=True)
+        if good: return good[:4]
+    except Exception as e:
+        print("model ro'yxati olinmadi:", e)
+    return ["gemini-2.5-flash"]
+
+MODELS = list_models()
+print("Modellar:", MODELS)
+
 def ask(prompt):
-    url = f"https://generativelanguage.googleapis.com/v1beta/models/{MODEL}:generateContent"
     body = {"contents": [{"parts": [{"text": prompt}]}],
             "generationConfig": {"responseMimeType": "application/json", "temperature": 0.9}}
-    req = urllib.request.Request(url, json.dumps(body).encode(), {"Content-Type": "application/json", "x-goog-api-key": KEY})
-    with urllib.request.urlopen(req, timeout=120) as r:
-        data = json.load(r)
-    txt = data["candidates"][0]["content"]["parts"][0]["text"]
-    return json.loads(re.sub(r"^```(?:json)?|```$", "", txt.strip(), flags=re.M).strip())
+    last = None
+    for model in MODELS:                      # band yoki yo'q model bo'lsa, keyingisiga o'tadi
+        url = f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent"
+        for attempt in range(3):              # vaqtincha xatolarda qayta urinadi
+            try:
+                req = urllib.request.Request(url, json.dumps(body).encode(),
+                                             {"Content-Type": "application/json", "x-goog-api-key": KEY})
+                with urllib.request.urlopen(req, timeout=120) as r:
+                    data = json.load(r)
+                txt = data["candidates"][0]["content"]["parts"][0]["text"]
+                return json.loads(re.sub(r"^```(?:json)?|```$", "", txt.strip(), flags=re.M).strip())
+            except urllib.error.HTTPError as e:
+                last = f"{model}: HTTP {e.code}"
+                if e.code in (429, 500, 502, 503, 504) and attempt < 2:
+                    time.sleep(8 * (attempt + 1)); continue
+                break                          # 404/400 va h.k.: bu modelni tashlab, keyingisiga
+            except (urllib.error.URLError, TimeoutError, ValueError, KeyError, IndexError) as e:
+                last = f"{model}: {type(e).__name__}"
+                if attempt < 2: time.sleep(5); continue
+                break
+    raise RuntimeError(last or "javob olinmadi")
 
 def s(v): return isinstance(v, str) and v.strip() != ""
 
@@ -112,6 +128,7 @@ def main():
     existing = {w["w"].lower() for w in db["words"]}
     try: existing |= {m.lower() for m in re.findall(r'\{w:"([^"]+)"', open("index.html", encoding="utf8").read())}
     except OSError: pass
+    before_total = sum(len(db[k]) for k in KEEP)
     jobs = [("words", lambda: gen_words(db, existing)), ("listening", lambda: gen_listening(db)),
             ("reading", lambda: gen_reading(db)), ("grammar", lambda: gen_grammar(db)), ("writing", lambda: gen_writing(db))]
     for name, fn in jobs:
@@ -119,8 +136,9 @@ def main():
             print(name, "- bugun allaqachon bor"); continue
         try: before = len(db[name]); fn(); print(name, "+", len(db[name]) - before)
         except Exception as e: print(name, "xato:", e)  # bitta bo'lim xato bersa, qolganlari davom etadi
+    added = sum(len(db[k]) for k in KEEP) - before_total
     for k, n in KEEP.items(): db[k] = db[k][-n:]
     json.dump(db, open(PATH, "w", encoding="utf8"), ensure_ascii=False, indent=1)
+    if added <= 0: sys.exit("Hech narsa yaratilmadi (Gemini javob bermadi)")
 
 if __name__ == "__main__": main()
-  
