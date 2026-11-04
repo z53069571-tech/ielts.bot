@@ -105,6 +105,59 @@
      "exp": "Free drinks are available at gate nine."
     }
    ]
+  },
+  {
+   "id": "lg20261104",
+   "title": "Shahar bo'ylab sayohat: Tinglab tushunish mashqi",
+   "meta": "Audio · 4 ta savol",
+   "lv": 2,
+   "items": [
+    {
+     "q": "What time will the main bus depart from the station?",
+     "opts": [
+      "9:15 AM",
+      "8:45 AM",
+      "9:00 AM",
+      "9:30 AM"
+     ],
+     "ans": 0,
+     "exp": "Yo'ldagi ta'mirlash ishlari sababli avtobus rejalashtirilgan soat 9:00 da emas, balki 9:15 da yo'lga chiqadi."
+    },
+    {
+     "q": "When was the historic castle constructed?",
+     "opts": [
+      "In the 15th century",
+      "In the 16th century",
+      "In the 14th century",
+      "In the 13th century"
+     ],
+     "ans": 2,
+     "exp": "Matnda birinchi bekat bo'lgan tarixiy qasr 14-asrda (fourteenth century) qurilgani aytilgan."
+    },
+    {
+     "q": "What item is NOT included in the tour ticket?",
+     "opts": [
+      "Bus transport",
+      "Drinks",
+      "Seafood lunch",
+      "Castle entrance"
+     ],
+     "ans": 1,
+     "exp": "Tushlik chipta narxiga kiritilgan, lekin ichimliklarni restoranda alohida sotib olish lozim."
+    },
+    {
+     "q": "Where is the final meeting point for the group at 4:30 PM?",
+     "opts": [
+      "In the castle gardens",
+      "Near the old harbour",
+      "At the local craft market",
+      "Outside the central clock tower"
+     ],
+     "ans": 3,
+     "exp": "Guruh a'zolari ajralib qolgan taqdirda, oxirgi uchrashuv joyi soat 16:30 da markaziy soat minorasi oldi qilib belgilangan."
+    }
+   ],
+   "script": "Welcome to the city highlights tour. Before we begin our journey today, I would like to share a few important details about our schedule. First, our main bus will leave the station at nine fifteen sharp, instead of the original time of nine o'clock, due to brief road maintenance. Our first stop will be the historic castle built in the fourteenth century, where we will spend about one hour exploring the outer gardens. After that, we will head down to the old harbour for a fresh seafood lunch. Please note that lunch is included in your tour ticket, but drinks must be purchased separately at the restaurant. In the afternoon, you will have two hours of free time to shop in the local craft market. If anyone gets separated from the group, our final meeting point will be outside the central clock tower at four thirty in the afternoon. Have a wonderful trip!"
   }
  ],
  "reading": [
@@ -157,6 +210,57 @@
      "exp": "Sut haqida matnda gap yo'q. Not Given."
     }
    ]
+  },
+  {
+   "id": "rg20261104",
+   "title": "Alp qishlog'ida barqaror turizm",
+   "meta": "True / False / Not Given · 4 ta savol",
+   "lv": 2,
+   "items": [
+    {
+     "q": "Local business owners experienced a permanent decrease in total revenue after vehicle restrictions were introduced.",
+     "opts": [
+      "True",
+      "False",
+      "Not Given"
+     ],
+     "ans": 1,
+     "exp": "Noto'g'ri. Matnda 'While some business owners initially feared a drop in income, overall revenue has actually risen by fifteen percent' deb ko'rsatilgan, ya'ni daromad kamaymagan, aksincha 15 foizga oshgan."
+    },
+    {
+     "q": "Money collected from vehicle parking fees is used to maintain local trails and historic buildings.",
+     "opts": [
+      "True",
+      "False",
+      "Not Given"
+     ],
+     "ans": 0,
+     "exp": "To'g'ri. Matndagi 'The revenue generated from municipal parking fees is reinvested directly into maintaining local hiking trails and preserving traditional timber architecture' jumlasiga ko'ra, to'xtash joyi tushumlari so'qmoqlar va me'morchilikni saqlashga sarflanadi."
+    },
+    {
+     "q": "Neighboring villages plan to launch their own digital loyalty pass systems next year.",
+     "opts": [
+      "True",
+      "False",
+      "Not Given"
+     ],
+     "ans": 2,
+     "exp": "Berilmagan. Matnda qo'shni qishloqlar raqamli tizim xarajatlarini tanqid qilgani ('neighboring villages have criticized the high operational costs') aytilgan, ammo ularning kelasi yili shunday tizim joriy etish rejalari haqida ma'lumot yo'q."
+    },
+    {
+     "q": "What was the primary reason local authorities introduced new vehicle regulations in 2021?",
+     "opts": [
+      "To force visitors to buy digital loyalty passes",
+      "To reduce the negative environmental impact of tourist traffic",
+      "To fund the construction of modern cable cars",
+      "To generate extra income for local business owners"
+     ],
+     "ans": 1,
+     "exp": "To'g'ri javob B. Matnda ta'kidlanishicha: 'Local authorities implemented strict vehicle regulations in 2021 to combat the environmental impact of increased tourist traffic'."
+    }
+   ],
+   "text": "Over the past decade, eco-tourism has transformed the small alpine village of Lauterbrunnen from a quiet seasonal destination into a year-round travel hotspot. Located in a steep Swiss valley known for its 72 waterfalls, the village traditionally relied on summer hiking and winter skiing. However, recent local initiatives have encouraged tourists to engage in sustainable activities, such as guided electric-bike tours and farm-to-table dining experiences.\n\nLocal authorities implemented strict vehicle regulations in 2021 to combat the environmental impact of increased tourist traffic. Visitors are now required to park their cars outside the main village area and rely on public electric buses or walking. While some business owners initially feared a drop in income, overall revenue has actually risen by fifteen percent. The revenue generated from municipal parking fees is reinvested directly into maintaining local hiking trails and preserving traditional timber architecture.\n\nFurthermore, the local tourism board introduced a digital loyalty pass for visitors staying longer than three nights. This pass grants free access to municipal museums and discounts on regional cable cars. Although the initiative has successfully increased the average length of stay, neighboring villages have criticized the high operational costs of maintaining such digital programs. Nevertheless, Lauterbrunnen remains a pioneering model for sustainable tourism in mountainous regions.",
+   "en": "Sustainable Tourism in an Alpine Village"
   }
  ],
  "grammar": [
@@ -474,7 +578,9 @@
   "Some people think university education should be free for everyone. Others think students should pay. Discuss both views and give your opinion.",
   "Nowadays more people choose to live alone. Is this a positive or negative development?",
   "Some people believe that traveling to foreign countries is essential for broadening a person's horizons, while others argue that modern technology allows people to experience different cultures without leaving home. Discuss both views and give your opinion.",
-  "Popular tourist destinations around the world are increasingly suffering from overcrowding and environmental degradation. What problems does this cause, and what solutions can be implemented to address this issue?"
+  "Popular tourist destinations around the world are increasingly suffering from overcrowding and environmental degradation. What problems does this cause, and what solutions can be implemented to address this issue?",
+  "Some people believe that international travel is the best way to gain an understanding of other cultures, while others think that reading books and watching documentaries can provide the same level of insight. Discuss both views and give your own opinion.",
+  "In many countries, popular tourist destinations are suffering from the negative impacts of overtourism. What are the main problems associated with this issue, and what measures can governments and individuals take to solve them?"
  ],
  "speaking": [
   "Describe a teacher who influenced you.\nYou should say: who this person was, what they taught you, how they behaved in class, and explain why they influenced you.",
