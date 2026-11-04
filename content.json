@@ -569,6 +569,56 @@
    "w": "reinforce",
    "uz": "mustahkamlamoq",
    "ex": "Regular practice reinforces what you have learned."
+  },
+  {
+   "w": "itinerary",
+   "uz": "sayohat marshruti",
+   "ex": "The travel agent provided a detailed itinerary for our two-week trip across Europe."
+  },
+  {
+   "w": "destination",
+   "uz": "boriladigan manzil",
+   "ex": "Paris remains one of the most popular tourist destinations in the world."
+  },
+  {
+   "w": "hospitality",
+   "uz": "mehmondo'stlik",
+   "ex": "The local people are well known for their warmth and generous hospitality."
+  },
+  {
+   "w": "excursion",
+   "uz": "ekskursiya, qisqa sayohat",
+   "ex": "During our stay at the resort, we took a day excursion to the ancient ruins."
+  },
+  {
+   "w": "commute",
+   "uz": "yo'l bosib qatnamoq",
+   "ex": "Many people prefer living in the suburbs even if it lengthens their daily commute."
+  },
+  {
+   "w": "expedition",
+   "uz": "ekspeditsiya, ilmiy sayohat",
+   "ex": "The team organized a scientific expedition to explore the remote rainforests."
+  },
+  {
+   "w": "infrastructure",
+   "uz": "infratuzilma",
+   "ex": "Developing better transport infrastructure is vital for attracting international tourists."
+  },
+  {
+   "w": "ecotourism",
+   "uz": "ekoturizm",
+   "ex": "Ecotourism helps preserve natural environments while supporting local communities."
+  },
+  {
+   "w": "accommodation",
+   "uz": "turar joy",
+   "ex": "The cost of the tour includes flight tickets, meals, and luxury accommodation."
+  },
+  {
+   "w": "transit",
+   "uz": "tranzit, o'tib ketish",
+   "ex": "Passengers who are in transit do not need to apply for a full entry visa."
   }
  ],
  "writing": [
@@ -580,7 +630,9 @@
   "Some people believe that traveling to foreign countries is essential for broadening a person's horizons, while others argue that modern technology allows people to experience different cultures without leaving home. Discuss both views and give your opinion.",
   "Popular tourist destinations around the world are increasingly suffering from overcrowding and environmental degradation. What problems does this cause, and what solutions can be implemented to address this issue?",
   "Some people believe that international travel is the best way to gain an understanding of other cultures, while others think that reading books and watching documentaries can provide the same level of insight. Discuss both views and give your own opinion.",
-  "In many countries, popular tourist destinations are suffering from the negative impacts of overtourism. What are the main problems associated with this issue, and what measures can governments and individuals take to solve them?"
+  "In many countries, popular tourist destinations are suffering from the negative impacts of overtourism. What are the main problems associated with this issue, and what measures can governments and individuals take to solve them?",
+  "Some people think that traveling to other countries is no longer necessary because we can learn about different cultures through the internet and television. To what extent do you agree or disagree?",
+  "In many parts of the world, popular tourist destinations are facing severe environmental degradation due to overtourism. What are the main causes of this problem, and what solutions can governments implement to address it?"
  ],
  "speaking": [
   "Describe a teacher who influenced you.\nYou should say: who this person was, what they taught you, how they behaved in class, and explain why they influenced you.",
