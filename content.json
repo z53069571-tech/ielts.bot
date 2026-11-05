@@ -158,6 +158,59 @@
     }
    ],
    "script": "Welcome to the city highlights tour. Before we begin our journey today, I would like to share a few important details about our schedule. First, our main bus will leave the station at nine fifteen sharp, instead of the original time of nine o'clock, due to brief road maintenance. Our first stop will be the historic castle built in the fourteenth century, where we will spend about one hour exploring the outer gardens. After that, we will head down to the old harbour for a fresh seafood lunch. Please note that lunch is included in your tour ticket, but drinks must be purchased separately at the restaurant. In the afternoon, you will have two hours of free time to shop in the local craft market. If anyone gets separated from the group, our final meeting point will be outside the central clock tower at four thirty in the afternoon. Have a wonderful trip!"
+  },
+  {
+   "id": "lg20261105",
+   "title": "Masofaviy ish siyosatidagi o'zgarishlar",
+   "meta": "Audio · 4 ta savol",
+   "lv": 3,
+   "items": [
+    {
+     "q": "Which days are employees required to work from the office under the new policy?",
+     "opts": [
+      "Wednesdays, Thursdays, and Fridays",
+      "Mondays, Tuesdays, and Wednesdays",
+      "Tuesdays, Wednesdays, and Thursdays",
+      "Mondays and Fridays only"
+     ],
+     "ans": 2,
+     "exp": "Matnga ko'ra, xodimlar haftaning seshanba, chorshanba va payshanba kunlari majburiy ravishda ofisda bo'lishlari shart."
+    },
+    {
+     "q": "How will the company handle transportation expenses going forward?",
+     "opts": [
+      "By reimbursing individual parking receipts",
+      "By purchasing public transit passes for all employees",
+      "By offering monthly commuting stipends",
+      "By reducing the overall annual transportation budget"
+     ],
+     "ans": 2,
+     "exp": "Kompaniya individual avtoturargoh cheklarini qoplash o'rniga har oylik yo'l kompensatsiyasi (stipend) ajratishga qaror qildi."
+    },
+    {
+     "q": "How will employee productivity be evaluated in quarterly reviews?",
+     "opts": [
+      "Based on project deliverables and key result areas",
+      "Based on quarterly peer feedback and reviews",
+      "Based on attendance during mandatory office days",
+      "Based strictly on total logged working hours"
+     ],
+     "ans": 0,
+     "exp": "Matnda ta'kidlanishicha, samaradorlik endi ishlangan soatlarga emas, loyiha natijalari va kalit ko'rsatkichlarga qarab baholanadi."
+    },
+    {
+     "q": "When must desk booking requests for collaboration spaces be submitted?",
+     "opts": [
+      "At least 24 hours in advance",
+      "At least 48 hours in advance",
+      "On the morning of the working day",
+      "One week prior to the scheduled meeting"
+     ],
+     "ans": 1,
+     "exp": "Jamoaviy hamkorlik joylarini band qilish so'rovlari ichki portal orqali kamida 48 soat oldin topshirilishi kerak."
+    }
+   ],
+   "script": "Welcome everyone to today’s briefing regarding our revised remote work policy starting next quarter. Following extensive feedback, the executive board has decided to transition from a full work-from-home setup to a hybrid model. Employees will now be required to spend three mandatory days in the office, specifically Tuesdays, Wednesdays, and Thursdays, while Mondays and Fridays remain flexible. To accommodate this shift, we are reallocating our annual transportation budget to provide monthly commuting stipends rather than reimbursing individual parking receipts. Furthermore, productivity will no longer be measured strictly by logged hours. Instead, quarterly performance reviews will focus entirely on project deliverables and key result areas. We believe this outcome-oriented framework fosters greater accountability and autonomy. Please note that all desk booking requests for team collaboration spaces must be submitted via the internal portal at least forty-eight hours in advance to avoid scheduling conflicts."
   }
  ],
  "reading": [
@@ -261,6 +314,57 @@
    ],
    "text": "Over the past decade, eco-tourism has transformed the small alpine village of Lauterbrunnen from a quiet seasonal destination into a year-round travel hotspot. Located in a steep Swiss valley known for its 72 waterfalls, the village traditionally relied on summer hiking and winter skiing. However, recent local initiatives have encouraged tourists to engage in sustainable activities, such as guided electric-bike tours and farm-to-table dining experiences.\n\nLocal authorities implemented strict vehicle regulations in 2021 to combat the environmental impact of increased tourist traffic. Visitors are now required to park their cars outside the main village area and rely on public electric buses or walking. While some business owners initially feared a drop in income, overall revenue has actually risen by fifteen percent. The revenue generated from municipal parking fees is reinvested directly into maintaining local hiking trails and preserving traditional timber architecture.\n\nFurthermore, the local tourism board introduced a digital loyalty pass for visitors staying longer than three nights. This pass grants free access to municipal museums and discounts on regional cable cars. Although the initiative has successfully increased the average length of stay, neighboring villages have criticized the high operational costs of maintaining such digital programs. Nevertheless, Lauterbrunnen remains a pioneering model for sustainable tourism in mountainous regions.",
    "en": "Sustainable Tourism in an Alpine Village"
+  },
+  {
+   "id": "rg20261105",
+   "title": "Zamonaviy mehnatda asinxron muloqot modeli",
+   "meta": "True / False / Not Given · 4 ta savol",
+   "lv": 3,
+   "items": [
+    {
+     "q": "Constant synchronous interaction has been found to disrupt focused, uninterrupted work.",
+     "opts": [
+      "True",
+      "False",
+      "Not Given"
+     ],
+     "ans": 0,
+     "exp": "Matnda \"constant connectivity often induces cognitive fatigue and fragments deep work\" deb ta'kidlangan, ya'ni doimiy aloqa diqqatni jamlab ishlash jarayonini buzadi."
+    },
+    {
+     "q": "Managers in asynchronous workplaces are encouraged to monitor active working hours more closely.",
+     "opts": [
+      "True",
+      "False",
+      "Not Given"
+     ],
+     "ans": 1,
+     "exp": "Matnga ko'ra, rahbarlar faol soatlarni kuzatish kabi nazorat usullaridan voz kechishlari kerak (\"Leaders must relinquish traditional modes of surveillance, such as tracking active hours\")."
+    },
+    {
+     "q": "Asynchronous workflows significantly reduce overall operational financial expenses for most companies.",
+     "opts": [
+      "True",
+      "False",
+      "Not Given"
+     ],
+     "ans": 2,
+     "exp": "Matnda asinxron ish shaklining moslashuvchanlikka ta'siri haqida so'z yuritilgan bo'lsa-da, kompaniyaning moliyaviy xarajatlarini kamaytirishi haqida ma'lumot berilmagan."
+    },
+    {
+     "q": "According to the passage, how can information asymmetry be prevented in geographically dispersed teams?",
+     "opts": [
+      "By meticulously documenting and archiving all operational protocols",
+      "By relying strictly on output-based financial incentives",
+      "By tracking employees' active working hours continuously",
+      "By holding more frequent synchronous virtual meetings"
+     ],
+     "ans": 0,
+     "exp": "Matndagi \"every operational protocol must be meticulously archived to prevent information asymmetry\" jumlasiga ko'ra, axborot tengsizligining oldini olish uchun barcha ish tartiblari batafsil hujjatlashtirilishi shart."
+    }
+   ],
+   "text": "The contemporary corporate paradigm is undergoing a profound metamorphism, driven largely by the proliferation of asynchronous communication models. Historically, organizational efficacy relied heavily on synchronous interaction—real-time meetings, immediate messaging, and co-located collaboration. However, recent empirical research indicates that such constant connectivity often induces cognitive fatigue and fragments deep work. Asynchronous workflows, by contrast, empower employees to structure their tasks around personal peak productivity hours, fundamentally decoupling time spent from output generated.\n\nDespite these theoretical advantages, transitioning to an asynchronous framework presents distinct managerial challenges. Leaders must relinquish traditional modes of surveillance, such as tracking active hours, and instead adopt output-based evaluation metrics. Furthermore, documentation becomes paramount; every operational protocol must be meticulously archived to prevent information asymmetry among geographically dispersed teams. While critics argue that asynchronous environments may inadvertently erode interpersonal camaraderie and organizational culture, proponents maintain that deliberate, scheduled social touchpoints can mitigate isolation without compromising individual autonomy. Ultimately, organizations that master this delicate equilibrium stand to gain unprecedented levels of workforce agility and talent retention, redefining the parameters of modern employment in an increasingly digitized global economy.",
+   "en": "Asynchronous Communication Models in Modern Employment"
   }
  ],
  "grammar": [
