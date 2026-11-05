@@ -723,6 +723,56 @@
    "w": "transit",
    "uz": "tranzit, o'tib ketish",
    "ex": "Passengers who are in transit do not need to apply for a full entry visa."
+  },
+  {
+   "w": "occupational",
+   "uz": "Kasbiy, mehnatga oid",
+   "ex": "Stress is one of the most common occupational hazards in the modern workplace."
+  },
+  {
+   "w": "redundancy",
+   "uz": "Shtatning qisqarishi, ish o'rnini yo'qotish",
+   "ex": "Many employees faced redundancy after the company decided to downsize."
+  },
+  {
+   "w": "remuneration",
+   "uz": "Mehnat haqi, haq to'lash",
+   "ex": "The position offers an attractive package of remuneration and extra benefits."
+  },
+  {
+   "w": "productivity",
+   "uz": "Mehnat unumdorligi",
+   "ex": "Flexible working hours can significantly improve overall worker productivity."
+  },
+  {
+   "w": "vocation",
+   "uz": "Kasb-kor, qobiliyat talab qiladigan kasb",
+   "ex": "Teaching is often seen as a vocation rather than just a regular job."
+  },
+  {
+   "w": "subordinate",
+   "uz": "Bo'ysinuvchi xodim",
+   "ex": "A good manager knows how to communicate effectively with their subordinates."
+  },
+  {
+   "w": "absenteeism",
+   "uz": "Ishga muntazam kelmaslik",
+   "ex": "High rates of absenteeism can indicate low employee morale within an organization."
+  },
+  {
+   "w": "bureaucracy",
+   "uz": "Byurokratiya, ortiqcha rasmiyatchilik",
+   "ex": "Excessive bureaucracy in the company slows down the approval process for new projects."
+  },
+  {
+   "w": "resignation",
+   "uz": "Istefo berish, ishdan bo'shash",
+   "ex": "The manager handed in her letter of resignation after securing a new position."
+  },
+  {
+   "w": "workforce",
+   "uz": "Ishchi kuchi, xodimlar tarkibi",
+   "ex": "The government is trying to encourage more young people to join the local workforce."
   }
  ],
  "writing": [
@@ -736,7 +786,9 @@
   "Some people believe that international travel is the best way to gain an understanding of other cultures, while others think that reading books and watching documentaries can provide the same level of insight. Discuss both views and give your own opinion.",
   "In many countries, popular tourist destinations are suffering from the negative impacts of overtourism. What are the main problems associated with this issue, and what measures can governments and individuals take to solve them?",
   "Some people think that traveling to other countries is no longer necessary because we can learn about different cultures through the internet and television. To what extent do you agree or disagree?",
-  "In many parts of the world, popular tourist destinations are facing severe environmental degradation due to overtourism. What are the main causes of this problem, and what solutions can governments implement to address it?"
+  "In many parts of the world, popular tourist destinations are facing severe environmental degradation due to overtourism. What are the main causes of this problem, and what solutions can governments implement to address it?",
+  "In many countries, an increasing number of people are working from home. While this trend offers flexibility, it can also lead to feelings of isolation and a blurring of work-life boundaries. What problems does this cause, and what measures can be taken to solve them?",
+  "Some people believe that job satisfaction is more important than a high salary, while others argue that financial compensation is the most significant factor when choosing a career. Discuss both views and give your own opinion."
  ],
  "speaking": [
   "Describe a teacher who influenced you.\nYou should say: who this person was, what they taught you, how they behaved in class, and explain why they influenced you.",
