@@ -11,7 +11,7 @@
               function render(d) {
                   const c = d.criteria || {}, cm = d.comments || {};
                       const crit = [["Task Response", "ta"], ["Coherence & Cohesion", "cc"], ["Lexical Resource", "lr"], ["Grammar", "gra"]];
-                          let h = `<div style="text-align:left;color:var(--pi,#fff);font-size:14px;line-height:1.5">
+                          let h = `<div style="text-align:left;color:#EDE9FF;font-size:14px;line-height:1.5">
                                 <div style="text-align:center;margin-bottom:6px"><span style="color:var(--mute)">Taxminiy band</span><br>
                                       <b style="font-size:40px;color:${bandColor(d.band)}">${esc(d.band)}</b></div>`;
                                           h += crit.map(([name, k]) => `<div style="padding:8px 0;border-top:1px solid var(--line)">
