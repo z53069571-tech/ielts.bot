@@ -211,6 +211,59 @@
     }
    ],
    "script": "Welcome everyone to today’s briefing regarding our revised remote work policy starting next quarter. Following extensive feedback, the executive board has decided to transition from a full work-from-home setup to a hybrid model. Employees will now be required to spend three mandatory days in the office, specifically Tuesdays, Wednesdays, and Thursdays, while Mondays and Fridays remain flexible. To accommodate this shift, we are reallocating our annual transportation budget to provide monthly commuting stipends rather than reimbursing individual parking receipts. Furthermore, productivity will no longer be measured strictly by logged hours. Instead, quarterly performance reviews will focus entirely on project deliverables and key result areas. We believe this outcome-oriented framework fosters greater accountability and autonomy. Please note that all desk booking requests for team collaboration spaces must be submitted via the internal portal at least forty-eight hours in advance to avoid scheduling conflicts."
+  },
+  {
+   "id": "lg20261106",
+   "title": "Riverdale shahrida hayot: Yangi kelganlar uchun qo'llanma",
+   "meta": "Audio · 4 ta savol",
+   "lv": 1,
+   "items": [
+    {
+     "q": "Why do most newcomers choose to live near Central Square?",
+     "opts": [
+      "It is located inside a park",
+      "There are no transport fees",
+      "It has the cheapest apartments",
+      "The metro station is very close"
+     ],
+     "ans": 3,
+     "exp": "Matnda aytilishicha, yangi ko'chib kelganlar metro bekati piyoda borishga ikki daqiqalik masofada joylashgani uchun Markaziy maydon atrofida yashashni afzal ko'rishadi."
+    },
+    {
+     "q": "How much is the typical monthly rent in North Park?",
+     "opts": [
+      "$550",
+      "$400",
+      "$800",
+      "$650"
+     ],
+     "ans": 0,
+     "exp": "Matnga binoan, North Park hududidagi arzonroq kvartiralarning oylik ijara haqi odatda 550 dollarni tashkil qiladi."
+    },
+    {
+     "q": "What is the cost of an unlimited city card?",
+     "opts": [
+      "$65",
+      "$70",
+      "$50",
+      "$40"
+     ],
+     "ans": 0,
+     "exp": "Matnda shahar bo'ylab cheksiz qatnash imkonini beruvchi shahar kartasi (unlimited city card) narxi 65 dollar ekani aytilgan."
+    },
+    {
+     "q": "When is the farmers' market held near the park?",
+     "opts": [
+      "Every Sunday",
+      "Every Saturday",
+      "Every day",
+      "On weekdays only"
+     ],
+     "ans": 1,
+     "exp": "Matnga ko'ra, park yaqinidagi yangi meva va sabzavotlar sotiladigan dehqon bozori har shanba kuni bo'lib o'tadi."
+    }
+   ],
+   "script": "Welcome to the city information desk. I can tell you a bit about living here in Riverdale. Most newcomers prefer living near Central Square because the metro station is only a two-minute walk away. However, renting an apartment there costs around eight hundred dollars a month, which is quite high. A cheaper alternative is the North Park area, where monthly rents are usually five hundred and fifty dollars. For public transport, you can buy a monthly bus pass for forty dollars, or get an unlimited city card for sixty-five dollars. If you enjoy outdoor activities, you should definitely visit Green Hill Park on weekends. It has a beautiful lake and is open every day from seven in the morning until nine in the evening. There is also a farmers' market near the park every Saturday where you can buy fresh local fruit and vegetables."
   }
  ],
  "reading": [
@@ -365,6 +418,57 @@
    ],
    "text": "The contemporary corporate paradigm is undergoing a profound metamorphism, driven largely by the proliferation of asynchronous communication models. Historically, organizational efficacy relied heavily on synchronous interaction—real-time meetings, immediate messaging, and co-located collaboration. However, recent empirical research indicates that such constant connectivity often induces cognitive fatigue and fragments deep work. Asynchronous workflows, by contrast, empower employees to structure their tasks around personal peak productivity hours, fundamentally decoupling time spent from output generated.\n\nDespite these theoretical advantages, transitioning to an asynchronous framework presents distinct managerial challenges. Leaders must relinquish traditional modes of surveillance, such as tracking active hours, and instead adopt output-based evaluation metrics. Furthermore, documentation becomes paramount; every operational protocol must be meticulously archived to prevent information asymmetry among geographically dispersed teams. While critics argue that asynchronous environments may inadvertently erode interpersonal camaraderie and organizational culture, proponents maintain that deliberate, scheduled social touchpoints can mitigate isolation without compromising individual autonomy. Ultimately, organizations that master this delicate equilibrium stand to gain unprecedented levels of workforce agility and talent retention, redefining the parameters of modern employment in an increasingly digitized global economy.",
    "en": "Asynchronous Communication Models in Modern Employment"
+  },
+  {
+   "id": "rg20261106",
+   "title": "Zamonaviy shaharlarda yashash",
+   "meta": "True / False / Not Given · 4 ta savol",
+   "lv": 1,
+   "items": [
+    {
+     "q": "Public transportation in modern cities helps decrease people's reliance on private cars.",
+     "opts": [
+      "True",
+      "False",
+      "Not Given"
+     ],
+     "ans": 0,
+     "exp": "Matndagi 'using buses, trains, and subways, which reduces their dependence on personal vehicles' jumlasiga ko'ra, jamoat transporti shaxsiy avtomobillarga qaramlikni kamaytiradi."
+    },
+    {
+     "q": "Central city apartments are usually inexpensive for young workers.",
+     "opts": [
+      "True",
+      "False",
+      "Not Given"
+     ],
+     "ans": 1,
+     "exp": "Matnda 'Finding an affordable apartment in a central area can be very difficult for young professionals' deb ko'rsatilgan, ya'ni markazdagi xonadonlar arzon emas, balki qimmat."
+    },
+    {
+     "q": "Most city residents prefer riding bicycles rather than taking the subway.",
+     "opts": [
+      "True",
+      "False",
+      "Not Given"
+     ],
+     "ans": 2,
+     "exp": "Matnda velosiped yo'lakchalari haqida aytilgan, ammo aholining aksariyati metro o'rniga velosipedni afzal ko'rish-ko'rmasligi haqida ma'lumot berilmagan."
+    },
+    {
+     "q": "Why are city planners building more public parks and community gardens?",
+     "opts": [
+      "To create space for new housing projects",
+      "To reduce the number of cycling lanes",
+      "To increase the price of central apartments",
+      "To help improve air quality and offer relaxation space"
+     ],
+     "ans": 3,
+     "exp": "Matndagi 'These green areas provide places for relaxation and help improve urban air quality' jumlasiga ko'ra, parklar dam olish va havo sifatini yaxshilash uchun qurilmoqda."
+    }
+   ],
+   "text": "In recent decades, more people have moved from rural villages to big cities in search of better job opportunities and lifestyle improvements. Modern cities offer many advantages, such as advanced public transportation systems, top-tier universities, and specialized healthcare facilities. People living in urban areas can easily travel around using buses, trains, and subways, which reduces their dependence on personal vehicles.\n\nHowever, city life also brings several challenges. High population density often leads to heavy traffic congestion, air pollution, and expensive housing costs. Finding an affordable apartment in a central area can be very difficult for young professionals. Additionally, the fast-paced environment and constant noise can cause stress for many residents.\n\nTo tackle these issues, city planners are trying to build more green spaces, such as public parks and community gardens. These green areas provide places for relaxation and help improve urban air quality. Many municipalities are also investing in cycling lanes to encourage healthier habits. Although living in a city can be demanding, many people prefer it because of the wide range of cultural activities, restaurants, and entertainment options available at all hours.",
+   "en": "Living in Modern Cities"
   }
  ],
  "grammar": [
@@ -773,6 +877,56 @@
    "w": "workforce",
    "uz": "Ishchi kuchi, xodimlar tarkibi",
    "ex": "The government is trying to encourage more young people to join the local workforce."
+  },
+  {
+   "w": "congestion",
+   "uz": "tirbandlik",
+   "ex": "Traffic congestion has become a major issue for residents living in central districts."
+  },
+  {
+   "w": "amenity",
+   "uz": "qulaylik, maishiy xizmat obyekti",
+   "ex": "Modern city planners aim to place basic amenities within walking distance of homes."
+  },
+  {
+   "w": "metropolis",
+   "uz": "megapolis, yirik shahar",
+   "ex": "Tokyo is a bustling metropolis that attracts millions of visitors each year."
+  },
+  {
+   "w": "sprawl",
+   "uz": "shahar hududining tartibsiz kengayishi",
+   "ex": "Unchecked sprawl has transformed green countryside into endless concrete suburbs."
+  },
+  {
+   "w": "cosmopolitan",
+   "uz": "ko'p millatli, xalqaro",
+   "ex": "The capital boasts a cosmopolitan atmosphere with varied dining and cultural events."
+  },
+  {
+   "w": "gentrification",
+   "uz": "hududning obodonlashishi va qimmatlashishi",
+   "ex": "Rapid gentrification has increased property prices and forced low-income families out."
+  },
+  {
+   "w": "density",
+   "uz": "zichlik",
+   "ex": "High population density in downtown areas often results in noise and overcrowding."
+  },
+  {
+   "w": "pedestrian",
+   "uz": "piyoda",
+   "ex": "The local council converted the main shopping street into a pedestrian-only zone."
+  },
+  {
+   "w": "residential",
+   "uz": "aholi yashaydigan, turar joyga oid",
+   "ex": "Heavy commercial vehicles are barred from entering residential neighborhoods at night."
+  },
+  {
+   "w": "sanitation",
+   "uz": "sanitariya, tozalik xizmati",
+   "ex": "Proper sanitation systems are vital for preventing diseases in crowded cities."
   }
  ],
  "writing": [
