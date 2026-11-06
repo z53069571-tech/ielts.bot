@@ -1,0 +1,421 @@
+{
+ "listening": [
+  {
+   "id": "l21",
+   "lv": 1,
+   "title": "Sport markaziga yozilish",
+   "meta": "Suhbat · 4 ta savol",
+   "script": "Hello, I would like to sign up for a swimming class at the sports centre. Sure. Classes run on Tuesdays and Thursdays at six in the evening. How much is it? It costs forty pounds for a month, or you can pay fifteen pounds for a single session. I will take the monthly option. Great. Please bring a towel and a swimming cap. The pool is closed on public holidays.",
+   "items": [
+    {
+     "q": "What does the woman want to do?",
+     "opts": [
+      "Join a gym",
+      "Sign up for a swimming class",
+      "Rent a tennis court",
+      "Buy a ticket"
+     ],
+     "ans": 1,
+     "exp": "U suzish darsiga yozilmoqchi."
+    },
+    {
+     "q": "Which days are the classes?",
+     "opts": [
+      "Monday and Wednesday",
+      "Tuesday and Thursday",
+      "Friday and Saturday",
+      "Saturday and Sunday"
+     ],
+     "ans": 1,
+     "exp": "Classes run on Tuesdays and Thursdays."
+    },
+    {
+     "q": "Which payment option does she choose?",
+     "opts": [
+      "Single session",
+      "Monthly",
+      "Yearly",
+      "Free trial"
+     ],
+     "ans": 1,
+     "exp": "I will take the monthly option: oylik, £40."
+    },
+    {
+     "q": "What must she bring?",
+     "opts": [
+      "A towel and a swimming cap",
+      "A passport",
+      "Lunch",
+      "A membership card"
+     ],
+     "ans": 0,
+     "exp": "Please bring a towel and a swimming cap."
+    }
+   ]
+  },
+  {
+   "id": "l22",
+   "lv": 2,
+   "title": "Aeroport e'loni",
+   "meta": "E'lon · 4 ta savol",
+   "script": "Attention passengers on flight BA two one four to Rome. Due to heavy fog, your flight has been delayed by two hours. The new departure time is half past eleven. Please do not leave the terminal. Free drinks are available at gate nine. We apologise for the inconvenience.",
+   "items": [
+    {
+     "q": "Where is the flight going?",
+     "opts": [
+      "Paris",
+      "Rome",
+      "Madrid",
+      "Berlin"
+     ],
+     "ans": 1,
+     "exp": "Flight to Rome."
+    },
+    {
+     "q": "Why is the flight delayed?",
+     "opts": [
+      "Technical fault",
+      "Heavy fog",
+      "A strike",
+      "Late crew"
+     ],
+     "ans": 1,
+     "exp": "Due to heavy fog."
+    },
+    {
+     "q": "What is the new departure time?",
+     "opts": [
+      "9:30",
+      "10:30",
+      "11:30",
+      "12:30"
+     ],
+     "ans": 2,
+     "exp": "Half past eleven: 11:30."
+    },
+    {
+     "q": "Where are free drinks available?",
+     "opts": [
+      "Gate nine",
+      "Gate five",
+      "The cafe",
+      "Information desk"
+     ],
+     "ans": 0,
+     "exp": "Free drinks are available at gate nine."
+    }
+   ]
+  }
+ ],
+ "reading": [
+  {
+   "id": "r21",
+   "lv": 1,
+   "title": "Uyqu nima uchun muhim",
+   "en": "Why Sleep Matters",
+   "meta": "True / False / Not Given · 4 ta savol",
+   "text": "Scientists have long known that sleep is essential, but recent studies show how deeply it affects daily life. Adults who sleep fewer than six hours a night are more likely to feel stressed and to make mistakes at work. A survey of 2,000 office workers found that those who slept seven to eight hours were twice as productive as colleagues who slept less. Some people believe that sleeping late at weekends can repair the damage of a short week, but researchers say this only helps partially. Experts recommend keeping regular bedtimes and avoiding screens for an hour before sleep.",
+   "items": [
+    {
+     "q": "Adults who sleep under six hours tend to feel more stressed.",
+     "opts": [
+      "True",
+      "False",
+      "Not Given"
+     ],
+     "ans": 0,
+     "exp": "Matn: more likely to feel stressed. True."
+    },
+    {
+     "q": "The survey included 2,000 office workers.",
+     "opts": [
+      "True",
+      "False",
+      "Not Given"
+     ],
+     "ans": 0,
+     "exp": "Matn: A survey of 2,000 office workers. True."
+    },
+    {
+     "q": "Sleeping late at weekends fully repairs a short week.",
+     "opts": [
+      "True",
+      "False",
+      "Not Given"
+     ],
+     "ans": 1,
+     "exp": "Matn: this only helps partially. False."
+    },
+    {
+     "q": "Doctors recommend drinking warm milk before bed.",
+     "opts": [
+      "True",
+      "False",
+      "Not Given"
+     ],
+     "ans": 2,
+     "exp": "Sut haqida matnda gap yo'q. Not Given."
+    }
+   ]
+  }
+ ],
+ "grammar": [
+  {
+   "id": "g11",
+   "lv": 1,
+   "title": "Artikllar",
+   "meta": "a / an / the · 4 ta savol",
+   "items": [
+    {
+     "q": "She is ___ engineer.",
+     "opts": [
+      "a",
+      "an",
+      "the",
+      "—"
+     ],
+     "ans": 1,
+     "exp": "engineer unli tovush bilan boshlanadi: an."
+    },
+    {
+     "q": "___ sun rises in the east.",
+     "opts": [
+      "A",
+      "An",
+      "The",
+      "—"
+     ],
+     "ans": 2,
+     "exp": "Yagona narsa oldidan the."
+    },
+    {
+     "q": "I usually have ___ breakfast at 8.",
+     "opts": [
+      "a",
+      "an",
+      "the",
+      "—"
+     ],
+     "ans": 3,
+     "exp": "Ovqat nomlari oldida artikl qo'yilmaydi."
+    },
+    {
+     "q": "He plays ___ guitar very well.",
+     "opts": [
+      "a",
+      "an",
+      "the",
+      "—"
+     ],
+     "ans": 2,
+     "exp": "Musiqa asboblari oldida the."
+    }
+   ]
+  },
+  {
+   "id": "g12",
+   "lv": 1,
+   "title": "Predloglar",
+   "meta": "Prepositions · 4 ta savol",
+   "items": [
+    {
+     "q": "The meeting is ___ Monday.",
+     "opts": [
+      "in",
+      "on",
+      "at",
+      "by"
+     ],
+     "ans": 1,
+     "exp": "Hafta kunlari oldidan on."
+    },
+    {
+     "q": "She was born ___ 1998.",
+     "opts": [
+      "in",
+      "on",
+      "at",
+      "since"
+     ],
+     "ans": 0,
+     "exp": "Yillar oldidan in."
+    },
+    {
+     "q": "I am interested ___ science.",
+     "opts": [
+      "on",
+      "at",
+      "in",
+      "for"
+     ],
+     "ans": 2,
+     "exp": "interested in."
+    },
+    {
+     "q": "He has lived here ___ 2015.",
+     "opts": [
+      "for",
+      "since",
+      "from",
+      "during"
+     ],
+     "ans": 1,
+     "exp": "Aniq boshlanish nuqtasi bilan since."
+    }
+   ]
+  },
+  {
+   "id": "g13",
+   "lv": 2,
+   "title": "Shart gaplar",
+   "meta": "Conditionals · 4 ta savol",
+   "items": [
+    {
+     "q": "If it rains tomorrow, we ___ at home.",
+     "opts": [
+      "stay",
+      "will stay",
+      "would stay",
+      "stayed"
+     ],
+     "ans": 1,
+     "exp": "First conditional: if + Present, will + fe'l."
+    },
+    {
+     "q": "If I ___ rich, I would travel the world.",
+     "opts": [
+      "am",
+      "were",
+      "will be",
+      "have been"
+     ],
+     "ans": 1,
+     "exp": "Second conditional: if + Past (were)."
+    },
+    {
+     "q": "If she had studied, she ___ the exam.",
+     "opts": [
+      "would pass",
+      "will pass",
+      "would have passed",
+      "passed"
+     ],
+     "ans": 2,
+     "exp": "Third conditional: would have + V3."
+    },
+    {
+     "q": "Unless you hurry, you ___ the bus.",
+     "opts": [
+      "miss",
+      "will miss",
+      "missed",
+      "would miss"
+     ],
+     "ans": 1,
+     "exp": "Unless + Present, will + fe'l."
+    }
+   ]
+  }
+ ],
+ "words": [
+  {
+   "w": "alleviate",
+   "uz": "yengillashtirmoq",
+   "ex": "Good policies can alleviate poverty."
+  },
+  {
+   "w": "ambiguous",
+   "uz": "noaniq, ikki ma'noli",
+   "ex": "The instructions were ambiguous and confusing."
+  },
+  {
+   "w": "coherent",
+   "uz": "izchil, mantiqiy",
+   "ex": "A good essay needs a coherent structure."
+  },
+  {
+   "w": "compensate",
+   "uz": "qoplamoq",
+   "ex": "Companies should compensate workers for overtime."
+  },
+  {
+   "w": "comprehensive",
+   "uz": "keng qamrovli",
+   "ex": "The report gives a comprehensive view of the problem."
+  },
+  {
+   "w": "deprive",
+   "uz": "mahrum qilmoq",
+   "ex": "Noise can deprive people of sleep."
+  },
+  {
+   "w": "disrupt",
+   "uz": "buzmoq, to'sqinlik qilmoq",
+   "ex": "Heavy snow disrupted public transport."
+  },
+  {
+   "w": "drawback",
+   "uz": "kamchilik",
+   "ex": "The main drawback of the plan is its high cost."
+  },
+  {
+   "w": "elaborate",
+   "uz": "batafsil bayon qilmoq",
+   "ex": "Could you elaborate on your answer?"
+  },
+  {
+   "w": "eliminate",
+   "uz": "yo'q qilmoq",
+   "ex": "The goal is to eliminate plastic waste."
+  },
+  {
+   "w": "empower",
+   "uz": "imkoniyat bermoq",
+   "ex": "Education empowers women to make their own choices."
+  },
+  {
+   "w": "enforce",
+   "uz": "qat'iy amalga oshirmoq",
+   "ex": "Police must enforce traffic laws."
+  },
+  {
+   "w": "fluctuate",
+   "uz": "tebranib turmoq",
+   "ex": "Oil prices fluctuate from month to month."
+  },
+  {
+   "w": "implement",
+   "uz": "joriy etmoq",
+   "ex": "The school will implement the new rules in September."
+  },
+  {
+   "w": "inhabitant",
+   "uz": "aholi, yashovchi",
+   "ex": "Each inhabitant of the village has access to clean water."
+  },
+  {
+   "w": "insight",
+   "uz": "chuqur tushuncha",
+   "ex": "The book offers valuable insight into human behaviour."
+  },
+  {
+   "w": "reinforce",
+   "uz": "mustahkamlamoq",
+   "ex": "Regular practice reinforces what you have learned."
+  }
+ ],
+ "writing": [
+  "Some people believe that governments should spend money on public transport rather than building new roads. To what extent do you agree or disagree?",
+  "Many people now work from home. Discuss the advantages and disadvantages of this trend.",
+  "In many countries, young people spend too much time on social media. What problems does this cause and what can be done?",
+  "Some people think university education should be free for everyone. Others think students should pay. Discuss both views and give your opinion.",
+  "Nowadays more people choose to live alone. Is this a positive or negative development?"
+ ],
+ "speaking": [
+  "Describe a teacher who influenced you.\nYou should say: who this person was, what they taught you, how they behaved in class, and explain why they influenced you.",
+  "Describe a place in your city that you like to visit.\nYou should say: where it is, how often you go there, what you do there, and explain why you like it.",
+  "Describe a time when you helped someone.\nYou should say: who you helped, how you helped them, why they needed help, and how you felt afterwards.",
+  "Describe a useful app on your phone.\nYou should say: what it is, how often you use it, what it does, and explain why it is useful.",
+  "Describe a family celebration you remember well.\nYou should say: what the occasion was, who was there, what you did, and explain why you remember it."
+ ]
+}
