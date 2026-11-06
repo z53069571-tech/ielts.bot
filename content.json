@@ -105,6 +105,59 @@
      "exp": "Free drinks are available at gate nine."
     }
    ]
+  },
+  {
+   "id": "lg20261106",
+   "title": "Shahar hayoti: Tinglab tushunish mashqi",
+   "meta": "Audio · 4 ta savol",
+   "lv": 1,
+   "items": [
+    {
+     "q": "How long has Sarah lived in Central City?",
+     "opts": [
+      "Three years",
+      "Five years",
+      "Nine years",
+      "Seven years"
+     ],
+     "ans": 1,
+     "exp": "Matnga ko'ra, Sara ushbu shaharda besh yildan beri yashab kelmoqda."
+    },
+    {
+     "q": "What can visitors find on Market Street?",
+     "opts": [
+      "Central libraries",
+      "Tourist information centers",
+      "Traditional shops and modern cafes",
+      "Large green parks"
+     ],
+     "ans": 2,
+     "exp": "Matnda Market Street'da an'anaviy do'konlar va zamonaviy kafelar borligi aytilgan."
+    },
+    {
+     "q": "Why can't visitors use the underground train right now?",
+     "opts": [
+      "It is closed for repairs",
+      "It only opens at night",
+      "It is located outside the city",
+      "It costs too much money"
+     ],
+     "ans": 0,
+     "exp": "Metropoliten kelasi oyga qadar ta'mirlash ishlari sababli yopilgan."
+    },
+    {
+     "q": "Where is the tourist information center located?",
+     "opts": [
+      "Inside the large green park",
+      "On Market Street",
+      "Next to the red bus stop",
+      "Opposite the central library"
+     ],
+     "ans": 3,
+     "exp": "Sayyohlar uchun axborot markazi markaziy kutubxonaning ro'parasida joylashgan."
+    }
+   ],
+   "script": "Welcome to Central City! My name is Sarah and I have lived in this wonderful city for five years. Today, I want to share some useful information for visitors. Central City is famous for its large green park, which is open every day from seven in the morning until nine at night. If you like shopping, the main shopping street is Market Street. It has many traditional shops and modern cafes. Transport in the city is very convenient. You can take the red bus, which costs only two dollars per trip. The underground train is faster, but it is currently closed for repairs until next month. If you need assistance during your stay, the tourist information center is located opposite the central library. They can give you free maps and advice about local events. I hope you enjoy your time exploring our beautiful city and discover everything it has to offer!"
   }
  ],
  "reading": [
@@ -157,6 +210,57 @@
      "exp": "Sut haqida matnda gap yo'q. Not Given."
     }
    ]
+  },
+  {
+   "id": "rg20261106",
+   "title": "Shahar hayotining afzalliklari va qiyinchiliklari",
+   "meta": "True / False / Not Given · 4 ta savol",
+   "lv": 1,
+   "items": [
+    {
+     "q": "Good public transport allows city residents to travel conveniently without owning a private vehicle.",
+     "opts": [
+      "True",
+      "False",
+      "Not Given"
+     ],
+     "ans": 0,
+     "exp": "Matnda \"making it easy for residents to travel without owning a car\" deb ta'kidlangan, shuning uchun bu tasdiq to'g'ri (True)."
+    },
+    {
+     "q": "Buying a home in rural areas is generally more expensive than buying one in big cities.",
+     "opts": [
+      "True",
+      "False",
+      "Not Given"
+     ],
+     "ans": 1,
+     "exp": "Matnda \"housing costs in cities are often much higher compared to rural areas\" deb yozilgan, ya'ni shaharda uy-joy qimmatroq. Shuning uchun bu tasdiq noto'g'ri (False)."
+    },
+    {
+     "q": "City governments are currently spending more money to build modern public parks.",
+     "opts": [
+      "True",
+      "False",
+      "Not Given"
+     ],
+     "ans": 2,
+     "exp": "Matnda parklar ko'ngilochar maskan sifatida tilga olingan bo'lsa-da, shahar hukumati yangi parklar qurishga pul ajratayotgani haqida hech qanday ma'lumot berilmagan (Not Given)."
+    },
+    {
+     "q": "According to the passage, what is a primary cause of sleep problems for city dwellers?",
+     "opts": [
+      "Poor public healthcare facilities",
+      "Traffic and construction noise",
+      "High cost of living",
+      "Long travel distances to work"
+     ],
+     "ans": 1,
+     "exp": "Matndagi \"High noise levels from traffic and construction can cause stress and sleep problems\" jumlasiga ko'ra, transport va qurilish shovqini uyqu muammolariga sabab bo'ladi. To'g'ri javob: B."
+    }
+   ],
+   "text": "Living in a modern city offers many advantages, but it also comes with unique challenges. One of the greatest benefits of city life is convenience. Cities usually have excellent public transportation systems, such as buses, trams, and underground trains, making it easy for residents to travel without owning a car. In addition, urban areas provide a wide variety of job opportunities, educational institutions, and healthcare facilities. People can easily find diverse places for entertainment, including museums, parks, restaurants, and shopping centres, all within short distances.\n\nHowever, life in a big city is not perfect. High noise levels from traffic and construction can cause stress and sleep problems for many residents. Furthermore, housing costs in cities are often much higher compared to rural areas, making it difficult for young professionals to buy their own homes. Pollution is another serious concern, as air quality in large cities often falls below recommended health standards. Despite these drawbacks, millions of people continue to move to urban centres every year because they prefer the vibrant lifestyle and endless opportunities that city environments provide. Overall, city living requires a balance between enjoying modern amenities and coping with daily urban pressures.",
+   "en": "The Advantages and Challenges of City Life"
   }
  ],
  "grammar": [
@@ -402,6 +506,56 @@
    "w": "reinforce",
    "uz": "mustahkamlamoq",
    "ex": "Regular practice reinforces what you have learned."
+  },
+  {
+   "w": "congestion",
+   "uz": "Tirbandlik",
+   "ex": "Heavy traffic congestion causes major delays during morning rush hours in big cities."
+  },
+  {
+   "w": "infrastructure",
+   "uz": "Infratuzilma",
+   "ex": "Modern cities require efficient infrastructure to support growing populations."
+  },
+  {
+   "w": "metropolis",
+   "uz": "Metropoliya / Yirik shahar",
+   "ex": "Tokyo is a bustling metropolis that attracts millions of visitors every year."
+  },
+  {
+   "w": "amenities",
+   "uz": "Qulayliklar / Maishiy xizmatlar",
+   "ex": "Living in the city center gives residents easy access to local amenities."
+  },
+  {
+   "w": "commute",
+   "uz": "Har kunlik qatnov",
+   "ex": "Many city dwellers spend over an hour on their daily commute to work."
+  },
+  {
+   "w": "gentrification",
+   "uz": "Jentrifikatsiya (kam ta'minlangan hududlarni obodonlashtirib boyitish)",
+   "ex": "Gentrification has transformed the old industrial district into an upscale neighborhood."
+  },
+  {
+   "w": "sprawl",
+   "uz": "Tartibsiz kengayish",
+   "ex": "Uncontrolled city expansion often leads to urban sprawl, destroying nearby green spaces."
+  },
+  {
+   "w": "pedestrian",
+   "uz": "Piyoda",
+   "ex": "The council decided to create more pedestrian zones to reduce air pollution in the center."
+  },
+  {
+   "w": "sanitation",
+   "uz": "Sanitariya tizimi",
+   "ex": "Poor sanitation in overcrowded urban areas can lead to the spread of diseases."
+  },
+  {
+   "w": "affluence",
+   "uz": "Farovonlik / Boylik",
+   "ex": "Signs of affluence can be seen in the high-end shopping districts of the capital."
   }
  ],
  "writing": [
@@ -409,7 +563,9 @@
   "Many people now work from home. Discuss the advantages and disadvantages of this trend.",
   "In many countries, young people spend too much time on social media. What problems does this cause and what can be done?",
   "Some people think university education should be free for everyone. Others think students should pay. Discuss both views and give your opinion.",
-  "Nowadays more people choose to live alone. Is this a positive or negative development?"
+  "Nowadays more people choose to live alone. Is this a positive or negative development?",
+  "In many modern cities, the sense of community among residents is declining as urban populations continue to grow. What are the main causes of this problem, and what measures can be taken to address it?",
+  "As cities expand, some people argue that local governments should prioritize creating public parks and green spaces over building new housing. To what extent do you agree or disagree with this statement?"
  ],
  "speaking": [
   "Describe a teacher who influenced you.\nYou should say: who this person was, what they taught you, how they behaved in class, and explain why they influenced you.",
