@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>IELTS imtihon rejimi</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;font:15px/1.6 Arial,Helvetica,sans-serif;color:#1d1d1d;background:#fff;height:100vh;height:100dvh;display:flex;flex-direction:column}
+.hd{background:#262626;color:#fff;display:flex;align-items:center;justify-content:space-between;gap:12px;padding:10px 18px;font-size:14px}
+.logo{font-weight:700;letter-spacing:1px;background:#c8102e;padding:2px 9px;border-radius:2px}
+.hd .mid{opacity:.85}.hd b{font-variant-numeric:tabular-nums;font-size:16px}
+.main{flex:1;display:grid;grid-template-columns:1fr 1fr;min-height:0}
+.pane{overflow:auto;padding:22px 28px}
+.pane+.pane{border-left:1px solid #d4d4d4;background:#fafafa}
+h2{margin:0 0 6px;font-size:20px}h3{margin:0 0 10px;font-size:16px}
+.sub{color:#555;margin:0 0 16px}
+.q{background:#fff;border:1px solid #d4d4d4;border-radius:3px;padding:12px 14px;margin:0 0 12px}
+.q.cur{border-color:#c8102e}
+.q p{margin:0 0 8px}.q .n{display:inline-block;min-width:26px;font-weight:700}
+.o{display:flex;gap:9px;align-items:flex-start;padding:7px 9px;margin:3px 0;border:1px solid transparent;border-radius:3px;cursor:pointer}
+.o:hover{background:#f0f0f0}.o.on{background:#eaeaea;border-color:#777}
+.o i{flex:none;width:16px;height:16px;margin-top:3px;border:2px solid #555;border-radius:50%}
+.o.on i{background:#222;box-shadow:inset 0 0 0 3px #eaeaea}
+input.gap,textarea{font:inherit;border:1px solid #777;border-radius:3px;padding:7px 9px;width:100%}
+input.gap{max-width:260px}
+textarea{height:100%;min-height:300px;resize:none;line-height:1.6}
+.flag{float:right;border:0;background:none;color:#888;cursor:pointer;font-size:13px}.flag.on{color:#c8102e;font-weight:700}
+.ft{border-top:1px solid #bbb;background:#f0f0f0;display:flex;align-items:center;gap:8px;padding:8px 14px;flex-wrap:wrap}
+.ft .nums{display:flex;gap:4px;flex-wrap:wrap;flex:1}
+.nb{min-width:30px;height:30px;border:1px solid #888;background:#fff;font:inherit;font-size:13px;cursor:pointer;border-radius:2px}
+.nb.done{background:#333;color:#fff;border-color:#333}.nb.cur{outline:2px solid #c8102e;outline-offset:1px}.nb.fl{border:2px solid #c8102e}
+.tab{border:1px solid #888;background:#fff;padding:6px 12px;cursor:pointer;font:inherit;font-size:13px;border-radius:2px}.tab.on{background:#222;color:#fff}
+.btn{border:0;background:#222;color:#fff;padding:9px 18px;border-radius:3px;font:inherit;cursor:pointer}
+.btn.red{background:#c8102e}.btn.ghost{background:#fff;color:#222;border:1px solid #777}.btn[disabled]{opacity:.45;cursor:default}
+.home{max-width:860px;margin:0 auto;padding:30px 20px;overflow:auto}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:12px;margin:18px 0}
+.card{border:1px solid #bbb;border-radius:3px;padding:16px;background:#fff;cursor:pointer;text-align:left;font:inherit}
+.card:hover{border-color:#c8102e}.card b{display:block;font-size:17px;margin-bottom:4px}.card span{color:#666;font-size:13px}
+.res{max-width:760px;margin:0 auto;padding:28px 20px;overflow:auto}
+.score{display:flex;gap:28px;align-items:baseline;margin:10px 0 20px}.score big{font-size:56px;font-weight:700;line-height:1}
+.rv{border-bottom:1px solid #e1e1e1;padding:10px 0}.ok{color:#18794e;font-weight:700}.no{color:#c8102e;font-weight:700}
+.rv small{display:block;color:#555}
+table{border-collapse:collapse;margin:8px 0 14px}td,th{border:1px solid #999;padding:6px 12px;text-align:left}th{background:#eee}
+.cue{border:2px solid #222;padding:16px 20px;margin:14px 0;background:#fff}
+.spk{max-width:640px;margin:0 auto;padding:36px 20px;overflow:auto}
+.big{font-size:44px;font-weight:700;font-variant-numeric:tabular-nums}
+@media(max-width:800px){.main{grid-template-columns:1fr;grid-template-rows:40% 60%}.pane{padding:16px}.pane+.pane{border-left:0;border-top:1px solid #d4d4d4}.hd .mid{display:none}}
+</style>
+</head>
+<body>
+<div class="hd"><span class="logo">IELTS</span><span class="mid" id="mid">Test taker</span><span>Qolgan vaqt: <b id="tm">--:--</b></span></div>
+<div id="root" style="flex:1;display:flex;flex-direction:column;min-height:0"></div>
+<script>
+const $=s=>document.querySelector(s), esc=s=>String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const TF=["True","False","Not Given"];
+const TEST={
+reading:{name:"Academic Reading",min:20,parts:[{title:"Reading Passage 1",intro:"The Repair Café Movement. Savollarga 20 daqiqada javob bering.",
+ text:["In 2009, a journalist named Martine Postma opened the first repair café in Amsterdam. Her idea was simple: invite people to bring broken household items, from toasters to torn coats, and fix them together with volunteers. The event was held in a local community hall and lasted one afternoon. Over fifty items were brought in, and more than half were repaired successfully.",
+ "The format is deliberately informal. Visitors do not pay a fixed fee, although a donation box is usually placed near the entrance. Volunteers with practical skills, such as electricians, tailors and bicycle mechanics, sit at tables with tools and spare parts. Visitors must stay and watch, and are encouraged to help, because the aim is to teach repair skills rather than simply to return a working object.",
+ "Within a decade, more than 2,000 repair cafés had appeared worldwide, many run by volunteers in libraries and schools. Supporters argue that repairing reduces waste and saves money. Manufacturers, however, have often made repair harder by gluing components together or refusing to sell spare parts. Some governments now require companies to supply parts for several years, a change that repair groups helped to bring about."],
+ qs:[{t:"tf",q:"The first repair café opened in Amsterdam.",a:0,e:"Matn: opened the first repair café in Amsterdam."},
+ {t:"tf",q:"Visitors pay a fixed fee for each item repaired.",a:1,e:"Matn: Visitors do not pay a fixed fee."},
+ {t:"tf",q:"Most repair cafés are organised by local councils.",a:2,e:"Kengashlar haqida matnda gap yo'q: Not Given."},
+ {t:"tf",q:"Over half of the items at the first event were repaired.",a:0,e:"Matn: more than half were repaired successfully."},
+ {t:"mc",q:"What is the main aim of a repair café?",o:["To sell second-hand goods","To teach people repair skills","To train professional electricians","To collect donations"],a:1,e:"Matn: the aim is to teach repair skills."},
+ {t:"mc",q:"Why must visitors stay with their item?",o:["Volunteers might lose it","So they can watch and help","They must pay on collection","Safety rules require it"],a:1,e:"Matn: Visitors must stay and watch, and are encouraged to help."},
+ {t:"mc",q:"How have manufacturers made repair harder?",o:["By raising prices","By gluing parts and withholding spare parts","By shortening guarantees","By closing shops"],a:1,e:"Matn: gluing components together or refusing to sell spare parts."},
+ {t:"gap",q:"The first event took place in a community ___ .",a:["hall"],e:"Matn: a local community hall."},
+ {t:"gap",q:"A ___ is usually placed near the entrance for donations. (ikki so'z)",a:["donation box"],e:"Matn: a donation box."},
+ {t:"gap",q:"Some governments now require companies to supply ___ for several years.",a:["parts","spare parts"],e:"Matn: supply parts for several years."}]}]},
+listening:{name:"Listening",min:15,parts:[
+ {title:"Section 1",intro:"Sport markaziga yozilish. Audio faqat bir marta eshittiriladi.",
+ script:"Hello, I would like to sign up for a swimming class at the sports centre. Sure. Classes run on Tuesdays and Thursdays at six in the evening. How much is it? It costs forty pounds for a month, or you can pay fifteen pounds for a single session. I will take the monthly option. Great. Please bring a towel and a swimming cap. The pool is closed on public holidays.",
+ qs:[{t:"gap",q:"Classes are on Tuesday and ___ .",a:["thursday"],e:"Audio: Tuesdays and Thursdays."},
+ {t:"gap",q:"Classes start at ___ in the evening.",a:["six","6","6pm","6 pm"],e:"Audio: at six in the evening."},
+ {t:"mc",q:"How much is the monthly option?",o:["£15","£40","£55"],a:1,e:"Audio: forty pounds for a month."},
+ {t:"gap",q:"Bring a towel and a swimming ___ .",a:["cap"],e:"Audio: a towel and a swimming cap."},
+ {t:"mc",q:"The pool is closed on",o:["public holidays","Sundays","Mondays"],a:0,e:"Audio: closed on public holidays."}]},
+ {title:"Section 2",intro:"Aeroport e'loni. Audio faqat bir marta eshittiriladi.",
+ script:"Attention passengers on flight BA two one four to Rome. Due to heavy fog, your flight has been delayed by two hours. The new departure time is half past eleven. Please do not leave the terminal. Free drinks are available at gate nine. We apologise for the inconvenience.",
+ qs:[{t:"mc",q:"Where is the flight going?",o:["Paris","Rome","Madrid"],a:1,e:"Audio: flight to Rome."},
+ {t:"mc",q:"Why is the flight delayed?",o:["Heavy fog","A strike","A technical fault"],a:0,e:"Audio: Due to heavy fog."},
+ {t:"gap",q:"The new departure time is half past ___ .",a:["eleven","11"],e:"Audio: half past eleven."},
+ {t:"gap",q:"Free drinks are at gate ___ .",a:["nine","9"],e:"Audio: gate nine."},
+ {t:"mc",q:"Passengers must",o:["stay in the terminal","go to a hotel","check in again"],a:0,e:"Audio: do not leave the terminal."}]}]}};
+const WR=[{title:"Writing Task 1",min:150,prompt:`<p>Quyidagi jadval 3 ta shaharda kitob o'qish uchun sarflangan o'rtacha vaqtni ko'rsatadi. Asosiy xususiyatlarni umumlashtiring va tegishli joylarni solishtiring.</p><table><tr><th>Shahar</th><th>2010</th><th>2020</th></tr><tr><td>Tashkent</td><td>42 min</td><td>31 min</td></tr><tr><td>Samarkand</td><td>38 min</td><td>35 min</td></tr><tr><td>Bukhara</td><td>25 min</td><td>29 min</td></tr></table><p>Kamida 150 so'z yozing. (Kuniga daqiqalarda)</p>`},
+{title:"Writing Task 2",min:250,prompt:`<p>Some people believe that governments should spend money on public transport rather than building new roads. To what extent do you agree or disagree?</p><p>Give reasons for your answer and include any relevant examples from your own knowledge or experience.</p><p>Write at least 250 words.</p>`}];
+const SP=[{p:"Part 1",q:"Let's talk about your hometown. Where is it, and what do you like about it?"},{p:"Part 1",q:"Do you prefer spending free time indoors or outdoors? Why?"},{p:"Part 1",q:"How often do you use public transport?"},{p:"Part 1",q:"What do you usually do in the evenings?"},
+{p:"Part 2",cue:1,q:"Describe a teacher who influenced you.",pts:["who this person was","what they taught you","how they behaved in class","and explain why they influenced you"]},
+{p:"Part 3",q:"How has the role of teachers changed in recent years?"},{p:"Part 3",q:"Do you think online learning can replace classrooms? Why or why not?"},{p:"Part 3",q:"What qualities make a good teacher?"}];
+const bandOf=(s,t)=>{const r=s/t*40;return r>=39?9:r>=37?8.5:r>=35?8:r>=33?7.5:r>=30?7:r>=27?6.5:r>=23?6:r>=19?5.5:r>=16?5:r>=13?4.5:r>=10?4:r>=8?3.5:r>=6?3:2.5};
+const hist=()=>{try{return JSON.parse(localStorage.getItem("ielts_exam_hist")||"[]")}catch(e){return[]}};
+const addH=h=>{try{const a=hist();a.unshift(Object.assign({ts:Date.now()},h));localStorage.setItem("ielts_exam_hist",JSON.stringify(a.slice(0,20)))}catch(e){}};
+let X,timer;
+const stop=()=>{clearInterval(timer);try{speechSynthesis.cancel()}catch(e){}};
+const setTm=s=>{$("#tm").textContent=String(Math.floor(s/60)).padStart(2,"0")+":"+String(s%60).padStart(2,"0")};
+function countdown(sec,done){stop();let end=Date.now()+sec*1000;const f=()=>{const s=Math.max(0,Math.round((end-Date.now())/1000));setTm(s);if(!s){clearInterval(timer);done()}};f();timer=setInterval(f,500)}
+
+function home(){stop();setTm(0);$("#tm").textContent="--:--";$("#mid").textContent="Test taker";
+ const h=hist().slice(0,5).map(x=>`<div class="rv">${esc(x.name)} <b>${x.band?("Band "+x.band+" ("+x.score+"/"+x.total+")"):esc(x.note||"")}</b> <small>${new Date(x.ts).toLocaleString()}</small></div>`).join("")||"<p class=sub>Hali natijalar yo'q.</p>";
+ $("#root").innerHTML=`<div class="home"><a href="index.html">&larr; Bosh sahifa</a><h2 style="margin-top:14px">IELTS imtihon rejimi</h2><p class="sub">Haqiqiy kompyuter imtihoni ko'rinishida. Taymer tugasa, javoblar avtomatik topshiriladi.</p>
+ <div class="cards"><button class="card" data-k="listening"><b>Listening</b><span>2 section · 10 savol · 15 daq</span></button><button class="card" data-k="reading"><b>Reading</b><span>1 matn · 10 savol · 20 daq</span></button><button class="card" data-k="writing"><b>Writing</b><span>Task 1 va Task 2 · 60 daq</span></button><button class="card" data-k="speaking"><b>Speaking</b><span>Part 1, 2, 3 · 11-14 daq</span></button></div>
+ <h3>So'nggi natijalar</h3>${h}</div>`;
+ document.querySelectorAll(".card").forEach(b=>b.onclick=()=>({listening:run,reading:run,writing:writing,speaking:speaking})[b.dataset.k](b.dataset.k))}
+
+/* ---------- Listening / Reading ---------- */
+function run(kind){const d=TEST[kind];let n=0;d.parts.forEach(p=>p.qs.forEach(q=>q.n=++n));
+ X={kind,d,A:{},F:{},pi:0,played:{},total:n,cur:1};$("#mid").textContent=d.name;
+ draw();countdown(d.min*60,()=>finish(true))}
+function draw(){const p=X.d.parts[X.pi];
+ $("#root").innerHTML=`<div class="main"><div class="pane" id="L"></div><div class="pane" id="R"></div></div><div class="ft" id="F"></div>`;paneL();paneR();pal()}
+function paneL(){const p=X.d.parts[X.pi],L=$("#L");
+ if(X.kind==="reading"){L.innerHTML=`<h2>${p.title}</h2><p class="sub">${esc(p.intro)}</p>`+p.text.map(t=>`<p>${esc(t)}</p>`).join("");return}
+ const pl=X.played[X.pi],ok="speechSynthesis"in window;
+ L.innerHTML=`<h2>${p.title}</h2><p class="sub">${esc(p.intro)}</p><button class="btn red" id="pl" ${pl?"disabled":""}>${pl?"Audio eshittirildi":"Audioni boshlash"}</button>${ok?"":`<p class="sub">Brauzeringiz ovozni qo'llamaydi. Chrome'dan foydalaning.</p>`}`;
+ const b=$("#pl");if(b&&!pl)b.onclick=()=>{X.played[X.pi]=1;const u=new SpeechSynthesisUtterance(p.script);u.lang="en-GB";u.rate=.9;speechSynthesis.cancel();speechSynthesis.speak(u);paneL()}}
+function paneR(){const p=X.d.parts[X.pi];
+ $("#R").innerHTML=`<h3>Questions ${p.qs[0].n}-${p.qs[p.qs.length-1].n}</h3>`+p.qs.map(q=>{
+  const A=X.A[q.n];let b="";
+  if(q.t==="gap")b=`<input class="gap" data-n="${q.n}" value="${esc(A||"")}" autocomplete="off">`;
+  else b=(q.t==="tf"?TF:q.o).map((o,i)=>`<div class="o ${A===i?"on":""}" data-n="${q.n}" data-i="${i}"><i></i><span>${q.t==="mc"?String.fromCharCode(65+i)+". ":""}${esc(o)}</span></div>`).join("");
+  return `<div class="q ${X.cur===q.n?"cur":""}" id="q${q.n}"><button class="flag ${X.F[q.n]?"on":""}" data-f="${q.n}">${X.F[q.n]?"Belgilandi":"Belgilash"}</button><p><span class="n">${q.n}</span>${esc(q.q).replace("___","<u>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</u>")}</p>${b}</div>`}).join("");
+ const R=$("#R");
+ R.onclick=e=>{const o=e.target.closest(".o"),f=e.target.closest("[data-f]");
+  if(o){X.A[o.dataset.n]=+o.dataset.i;X.cur=+o.dataset.n;paneR();pal()}
+  if(f){X.F[f.dataset.f]=!X.F[f.dataset.f];paneR();pal()}};
+ R.oninput=e=>{if(e.target.dataset.n){X.A[e.target.dataset.n]=e.target.value;X.cur=+e.target.dataset.n;pal()}}}
+function pal(){const f=$("#F"),last=X.pi===X.d.parts.length-1;
+ f.innerHTML=X.d.parts.map((p,i)=>`<button class="tab ${i===X.pi?"on":""}" data-p="${i}">${p.title}</button>`).join("")+`<div class="nums">`+X.d.parts.flatMap(p=>p.qs).map(q=>{const a=X.A[q.n];return `<button class="nb ${a!==undefined&&a!==""?"done":""} ${X.cur===q.n?"cur":""} ${X.F[q.n]?"fl":""}" data-g="${q.n}">${q.n}</button>`}).join("")+`</div><button class="btn ${last?"red":""}" id="nx">${last?"Topshirish":"Keyingi"}</button>`;
+ f.onclick=e=>{const t=e.target.closest(".tab"),g=e.target.closest(".nb");
+  if(t){X.pi=+t.dataset.p;draw()}
+  if(g){const n=+g.dataset.g;X.pi=X.d.parts.findIndex(p=>p.qs.some(q=>q.n===n));X.cur=n;draw();const el=$("#q"+n);el&&el.scrollIntoView({block:"center"})}};
+ $("#nx").onclick=()=>{if(!last){X.pi++;draw()}else{const miss=X.total-Object.keys(X.A).filter(k=>X.A[k]!==""&&X.A[k]!==undefined).length;if(confirm(miss?`${miss} ta savol javobsiz. Topshirasizmi?`:"Javoblarni topshirasizmi?"))finish()}}}
+const norm=s=>String(s||"").toLowerCase().replace(/[£.]/g,"").replace(/\s+/g," ").trim();
+function finish(){stop();const qs=X.d.parts.flatMap(p=>p.qs);let sc=0;
+ const rows=qs.map(q=>{const a=X.A[q.n];let ok,ya,ca;
+  if(q.t==="gap"){ok=q.a.map(norm).includes(norm(a));ya=a||"—";ca=q.a[0]}
+  else{const L=q.t==="tf"?TF:q.o;ok=a===q.a;ya=a===undefined?"—":L[a];ca=L[q.a]}
+  if(ok)sc++;return `<div class="rv"><span class="${ok?"ok":"no"}">${ok?"✓":"✗"}</span> <b>${q.n}.</b> ${esc(q.q)}<small>Sizning javobingiz: ${esc(ya)}${ok?"":" · To'g'ri javob: "+esc(ca)}</small><small>${esc(q.e)}</small></div>`}).join("");
+ const b=bandOf(sc,X.total);addH({name:X.d.name,score:sc,total:X.total,band:b});
+ const scr=X.kind==="listening"?X.d.parts.map(p=>`<details><summary>${p.title} transkripti</summary><p>${esc(p.script)}</p></details>`).join(""):"";
+ setTm(0);$("#root").innerHTML=`<div class="res"><h2>${X.d.name}: natija</h2><div class="score"><big>${sc}/${X.total}</big><span>Taxminiy band: <b>${b}</b><br><small>Band ballari 40 savollik rasmiy jadvalga moslab hisoblangan, shuning uchun taxminiy.</small></span></div>${scr}${rows}<p><button class="btn" id="bk">Bosh sahifaga</button></p></div>`;$("#bk").onclick=home}
+
+/* ---------- Writing ---------- */
+function writing(){const W=["",""];let t=0;$("#mid").textContent="Writing";
+ const show=()=>{const w=WR[t];$("#root").innerHTML=`<div class="main"><div class="pane"><h2>${w.title}</h2>${w.prompt}</div><div class="pane"><textarea id="ta" placeholder="Javobingizni shu yerga yozing..."></textarea></div></div><div class="ft"><button class="tab ${t==0?"on":""}" data-t="0">Task 1</button><button class="tab ${t==1?"on":""}" data-t="1">Task 2</button><span class="nums" id="wc"></span><button class="btn red" id="sb">Topshirish</button></div>`;
+  const ta=$("#ta");ta.value=W[t];const cnt=()=>{const c=(W[t].trim().match(/\S+/g)||[]).length;$("#wc").textContent="So'zlar: "+c+" / minimum "+w.min};
+  ta.oninput=()=>{W[t]=ta.value;cnt()};cnt();
+  document.querySelectorAll("[data-t]").forEach(b=>b.onclick=()=>{t=+b.dataset.t;show()});
+  $("#sb").onclick=()=>{if(!confirm("Writing'ni topshirasizmi?"))return;stop();const c=W.map(x=>(x.trim().match(/\S+/g)||[]).length);addH({name:"Writing",note:`Task 1: ${c[0]} so'z, Task 2: ${c[1]} so'z`});
+   setTm(0);$("#root").innerHTML=`<div class="res"><h2>Writing topshirildi</h2><p>Task 1: <b>${c[0]}</b> so'z (minimum 150) ${c[0]>=150?"✓":"✗"}<br>Task 2: <b>${c[1]}</b> so'z (minimum 250) ${c[1]>=250?"✓":"✗"}</p><p class="sub">Band bo'yicha avtomatik baholash keyingi bosqichda qo'shiladi. Hozircha insholaringizni ustozingizga ko'rsating.</p><h3>O'zingizni tekshiring</h3><ul><li>Task Response: savolga to'liq javob berdingizmi?</li><li>Coherence: abzatslar va bog'lovchilar bormi?</li><li>Lexical Resource: so'zlar takrorlanmadimi?</li><li>Grammar: har xil gap tuzilmalari ishlatildimi?</li></ul><button class="btn" id="bk">Bosh sahifaga</button></div>`;$("#bk").onclick=home}};
+ show();countdown(3600,()=>$("#sb").onclick&&(alert("Vaqt tugadi"),home()))}
+
+/* ---------- Speaking ---------- */
+function speaking(){let i=0;$("#mid").textContent="Speaking";$("#tm").textContent="--:--";
+ const say=t=>{try{speechSynthesis.cancel();const u=new SpeechSynthesisUtterance(t);u.lang="en-GB";u.rate=.92;speechSynthesis.speak(u)}catch(e){}};
+ const step=()=>{stop();if(i>=SP.length){addH({name:"Speaking",note:"Yakunlandi"});$("#root").innerHTML=`<div class="spk"><h2>Speaking yakunlandi</h2><p class="sub">Javoblaringizni o'zingiz yoki ustozingiz bilan muhokama qiling. Avtomatik baholash keyingi bosqichda qo'shiladi.</p><button class="btn" id="bk">Bosh sahifaga</button></div>`;$("#bk").onclick=home;return}
+  const s=SP[i];
+  if(s.cue){$("#root").innerHTML=`<div class="spk"><h3>${s.p}</h3><div class="cue"><b>${esc(s.q)}</b><p>You should say:</p><ul>${s.pts.map(x=>`<li>${esc(x)}</li>`).join("")}</ul></div><p id="ph" class="sub">Tayyorlanish: 1 daqiqa</p><div class="big" id="bg">01:00</div><p><button class="btn" id="nx">O'tkazib yuborish</button></p></div>`;
+   say("Now, I'm going to give you a topic. You have one minute to prepare. "+s.q);
+   const go=(sec,label,nextF)=>{$("#ph").textContent=label;stop();const end=Date.now()+sec*1000;const f=()=>{const r=Math.max(0,Math.round((end-Date.now())/1000));$("#bg").textContent=String(Math.floor(r/60)).padStart(2,"0")+":"+String(r%60).padStart(2,"0");if(!r){clearInterval(timer);nextF()}};f();timer=setInterval(f,500)};
+   go(60,"Tayyorlanish: 1 daqiqa",()=>{go(120,"Gapiring: 2 daqiqagacha",()=>{i++;step()})});
+   $("#nx").onclick=()=>{i++;step()};return}
+  $("#root").innerHTML=`<div class="spk"><h3>${s.p} · ${i+1} / ${SP.length}</h3><div class="cue"><b>${esc(s.q)}</b></div><p class="sub">Savol ovoz bilan o'qiladi. Ovoz chiqarib javob bering.</p><button class="btn ghost" id="rp">Savolni takrorlash</button> <button class="btn red" id="nx">Keyingi savol</button></div>`;
+  say(s.q);$("#rp").onclick=()=>say(s.q);$("#nx").onclick=()=>{i++;step()}};
+ step()}
+home();
+</script>
+</body>
+</html>
