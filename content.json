@@ -158,6 +158,59 @@
     }
    ],
    "script": "Welcome to Central City! My name is Sarah and I have lived in this wonderful city for five years. Today, I want to share some useful information for visitors. Central City is famous for its large green park, which is open every day from seven in the morning until nine at night. If you like shopping, the main shopping street is Market Street. It has many traditional shops and modern cafes. Transport in the city is very convenient. You can take the red bus, which costs only two dollars per trip. The underground train is faster, but it is currently closed for repairs until next month. If you need assistance during your stay, the tourist information center is located opposite the central library. They can give you free maps and advice about local events. I hope you enjoy your time exploring our beautiful city and discover everything it has to offer!"
+  },
+  {
+   "id": "lg20261107",
+   "title": "Xalqaro Madaniy Ko'rgazma",
+   "meta": "Audio · 4 ta savol",
+   "lv": 2,
+   "items": [
+    {
+     "q": "What is displayed on the ground floor of the exhibition?",
+     "opts": [
+      "Indigenous Australian dot paintings",
+      "Live music instruments",
+      "Authentic regional food stalls",
+      "Hand-woven silk scarves"
+     ],
+     "ans": 3,
+     "exp": "Matnga ko'ra, birinchi qavatda (ground floor) Markaziy Osiyodan keltirilgan qo'lda to'qilgan ipak ro'mollar to'plami joylashgan."
+    },
+    {
+     "q": "How many participants are allowed per workshop session?",
+     "opts": [
+      "5",
+      "20",
+      "15",
+      "50"
+     ],
+     "ans": 2,
+     "exp": "Har bir mahorat darsida amaliy tajribani ta'minlash uchun qatnashchilar soni 15 kishi bilan cheklangan."
+    },
+    {
+     "q": "What will take place in the outdoor courtyard at five in the evening?",
+     "opts": [
+      "A guided gallery tour",
+      "Live folk music performances",
+      "A photo contest",
+      "A textile art auction"
+     ],
+     "ans": 1,
+     "exp": "Kechqurun soat 5:00 da tashqi hovlida jonli xalq musiqasi ijrolari boshlanishi aytilgan."
+    },
+    {
+     "q": "What is strictly prohibited inside the museum galleries?",
+     "opts": [
+      "Entering without a ticket",
+      "Taking regular non-flash photos",
+      "Taking photographs with flash",
+      "Listening to folk music"
+     ],
+     "ans": 2,
+     "exp": "Matnda muzey galereyalari ichida flesh (vspyshka) bilan suratga olish qat'iyan man etilgani ta'kidlangan."
+    }
+   ],
+   "script": "Welcome everyone to the annual International Cultural Exhibition. This year, our focus is on traditional textile arts from around the world. On the ground floor, you will find an extraordinary collection of hand-woven silk scarves from Central Asia, showcasing vibrant patterns that have been preserved for centuries. As you move upstairs to the main gallery, don't miss the exhibition dedicated to Indigenous Australian dot painting, where local artists will be holding interactive workshops every afternoon at two o'clock. Registration for these workshops is free, but places are limited to fifteen participants per session to ensure a hands-on experience. Finally, the outdoor courtyard will feature live folk music performances starting at five in the evening, alongside food stalls serving authentic regional dishes. Please remember that taking photographs with flash is strictly prohibited inside the museum galleries, although regular photography is allowed in the courtyard area. We hope you enjoy your visit today!"
   }
  ],
  "reading": [
@@ -261,6 +314,57 @@
    ],
    "text": "Living in a modern city offers many advantages, but it also comes with unique challenges. One of the greatest benefits of city life is convenience. Cities usually have excellent public transportation systems, such as buses, trams, and underground trains, making it easy for residents to travel without owning a car. In addition, urban areas provide a wide variety of job opportunities, educational institutions, and healthcare facilities. People can easily find diverse places for entertainment, including museums, parks, restaurants, and shopping centres, all within short distances.\n\nHowever, life in a big city is not perfect. High noise levels from traffic and construction can cause stress and sleep problems for many residents. Furthermore, housing costs in cities are often much higher compared to rural areas, making it difficult for young professionals to buy their own homes. Pollution is another serious concern, as air quality in large cities often falls below recommended health standards. Despite these drawbacks, millions of people continue to move to urban centres every year because they prefer the vibrant lifestyle and endless opportunities that city environments provide. Overall, city living requires a balance between enjoying modern amenities and coping with daily urban pressures.",
    "en": "The Advantages and Challenges of City Life"
+  },
+  {
+   "id": "rg20261107",
+   "title": "Yapon choy marosimi san'ati",
+   "meta": "True / False / Not Given · 4 ta savol",
+   "lv": 2,
+   "items": [
+    {
+     "q": "The low entrance of the tearoom is designed to make guests feel equal regardless of their social standing.",
+     "opts": [
+      "True",
+      "False",
+      "Not Given"
+     ],
+     "ans": 0,
+     "exp": "Matnda nijiriguchi deb ataluvchi past eshik barchani tiz cho'kib kirishga majbur qilib, ijtimoiy mavqeni ramziy ravishda yo'qotishi va tenglik o'rnatishi aytilgan (\"symbolically stripping away social status and creating equality among participants\")."
+    },
+    {
+     "q": "Tea ceremonies are currently performed by most Japanese families on a daily basis.",
+     "opts": [
+      "True",
+      "False",
+      "Not Given"
+     ],
+     "ans": 1,
+     "exp": "Matnga ko'ra, zamonaviy Yaponiyada urbanizatsiya va tezkor hayot sababli choy marosimlari kundalik hayotda kamdan-kam o'tkaziladi (\"less common in daily life\"), ya'ni ko'pchilik oilalar buni har kuni bajarmaydi."
+    },
+    {
+     "q": "Sen no Rikyū wrote several bestselling books explaining the philosophy of Chadō.",
+     "opts": [
+      "True",
+      "False",
+      "Not Given"
+     ],
+     "ans": 2,
+     "exp": "Matnda usta Sen no Rikyū Chadō falsafasini rivojlantirgani qayd etilgan, biroq uning kitoblar yozganligi haqida hech qanday ma'lumot berilmagan."
+    },
+    {
+     "q": "According to the passage, what distinguishes the perspective of practitioners from that of outsiders regarding Chadō?",
+     "opts": [
+      "Outsiders appreciate the strict etiquette more than practitioners do.",
+      "Practitioners view it as a form of meditation rather than just a social event.",
+      "Practitioners focus solely on the chemical benefits of matcha tea.",
+      "Outsiders regard the ceremony as an ancient religious requirement."
+     ],
+     "ans": 1,
+     "exp": "Matnda tashqi kuzatuvchilar bu marosimni shunchaki ijtimoiy uchrashuv deb hisoblashsa-da, amaliyotchilar uni meditatsiya shakli deb bilishlari aniq ko'rsatilgan (\"practitioners consider it a form of active meditation\")."
+    }
+   ],
+   "text": "The Japanese tea ceremony, known as Chadō or \"the Way of Tea,\" is a cultural ritual steeped in Zen Buddhist philosophy. Originating in the ninth century, when Buddhist monks first brought tea leaves from China, the practice evolved over centuries into a refined art form. By the sixteenth century, master Sen no Rikyū transformed Chadō by emphasizing the concepts of harmony, respect, purity, and tranquility.\n\nCentral to the ceremony is the preparation of matcha, a finely powdered green tea. The host prepares the beverage with meticulous movements, every gesture dictated by centuries of etiquette. Guests enter the tearoom through a deliberately low sliding door called a nijiriguchi, which forces everyone to crawl, symbolically stripping away social status and creating equality among participants. While outsiders often view the ritual as a mere social gathering, practitioners consider it a form of active meditation that encourages mindfulness and deep appreciation of the present moment.\n\nIn contemporary Japan, traditional tea ceremonies are less common in daily life due to modern urbanization and fast-paced schedules. Nevertheless, Chadō remains widely preserved through specialized schools and cultural clubs, continuing to influence Japanese aesthetic values, including hospitality and seasonal awareness.",
+   "en": "The Art of the Japanese Tea Ceremony"
   }
  ],
  "grammar": [
@@ -419,6 +523,69 @@
      "exp": "Unless + Present, will + fe'l."
     }
    ]
+  },
+  {
+   "id": "gg20261107",
+   "title": "O'zlashtirma nutq (Reported Speech) bo'yicha grammatik testlar",
+   "meta": "Reported speech · 5 ta savol",
+   "lv": 2,
+   "items": [
+    {
+     "q": "She promised that she ___ the report by the following day.",
+     "opts": [
+      "has finished",
+      "would finish",
+      "will finish",
+      "finished"
+     ],
+     "ans": 1,
+     "exp": "O'zlashtirma gapda asosiy fe'l o'tgan zamonda bo'lsa, kelasi zamon ko'rsatkichi 'will' bir pog'ona orqaga surilib 'would' shakliga o me'yoran o'zgaradi."
+    },
+    {
+     "q": "The professor suggested ___ the research data before drawing any final conclusions.",
+     "opts": [
+      "that we will re-examine",
+      "us to re-examine",
+      "to re-examine",
+      "re-examining"
+     ],
+     "ans": 3,
+     "exp": "'Suggest' fe'lidan so'ng bevosita to'ldiruvchi kelmaganda, undan keyingi fe me'yoran ing-forma (-ing) shaklida ishlatiladi."
+    },
+    {
+     "q": "The investigator asked the witness where ___ at the time of the incident.",
+     "opts": [
+      "he is",
+      "was he",
+      "he had been",
+      "had he been"
+     ],
+     "ans": 2,
+     "exp": "O'zlashtirma so'roq gaplarda so'z tartibi darak gapnikidek (ega + kesim) bo'ladi va zamon Past Perfect (he had been) shakliga o'tadi."
+    },
+    {
+     "q": "The manager reminded us that we ___ submit the quarterly reports by Friday afternoon.",
+     "opts": [
+      "will have to",
+      "have to",
+      "must",
+      "had to"
+     ],
+     "ans": 3,
+     "exp": "O'zlashtirma gapda majburiyatni bildiruvchi 'must' yoki 'have to' modal fe'llari o'tgan zamonda 'had to' shakliga o'zgaradi."
+    },
+    {
+     "q": "She admitted that if she ___ harder in her youth, she would have achieved her goals much earlier.",
+     "opts": [
+      "would study",
+      "had studied",
+      "has studied",
+      "studied"
+     ],
+     "ans": 1,
+     "exp": "Uchinchi tur shartli gaplar (3rd conditional) o'zlashtirma gapga aylantirilganda zamon shakli (Past Perfect - had studied) o'zgarmasdan qoladi."
+    }
+   ]
   }
  ],
  "words": [
@@ -556,6 +723,56 @@
    "w": "affluence",
    "uz": "Farovonlik / Boylik",
    "ex": "Signs of affluence can be seen in the high-end shopping districts of the capital."
+  },
+  {
+   "w": "heritage",
+   "uz": "madaniy meros",
+   "ex": "Many historical buildings are protected to safeguard the nation's cultural heritage."
+  },
+  {
+   "w": "assimilate",
+   "uz": "singib ketmoq, o'zlashmoq",
+   "ex": "Immigrants often struggle to assimilate into a new society while retaining their native traditions."
+  },
+  {
+   "w": "indigenous",
+   "uz": "tub joy, mahalliy",
+   "ex": "The preservation of indigenous languages is essential for maintaining global cultural diversity."
+  },
+  {
+   "w": "homogeneity",
+   "uz": "bir xillik",
+   "ex": "Globalization has sparked concerns about cultural homogeneity replacing unique local identities."
+  },
+  {
+   "w": "multiculturalism",
+   "uz": "ko'p madaniyatlilik",
+   "ex": "Modern cities often celebrate multiculturalism by hosting international art and food festivals."
+  },
+  {
+   "w": "preserve",
+   "uz": "saqlab qolmoq, asramoq",
+   "ex": "Traditional craftsmanship requires government funding if communities are to preserve it for future generations."
+  },
+  {
+   "w": "norm",
+   "uz": "ijtimoiy me'yor, qoida",
+   "ex": "Greeting elders respectfully is considered a fundamental social norm in many Asian cultures."
+  },
+  {
+   "w": "integration",
+   "uz": "qo'shilish, integratsiya",
+   "ex": "Successful cultural integration requires mutual respect between native citizens and newcomers."
+  },
+  {
+   "w": "secular",
+   "uz": "dunyoviy",
+   "ex": "In a secular society, public institutions and policies remain neutral regarding religious practices."
+  },
+  {
+   "w": "ancestral",
+   "uz": "ajdodlarga oid",
+   "ex": "Many ethnic groups still gather on their ancestral lands to celebrate seasonal festivals."
   }
  ],
  "writing": [
@@ -565,7 +782,9 @@
   "Some people think university education should be free for everyone. Others think students should pay. Discuss both views and give your opinion.",
   "Nowadays more people choose to live alone. Is this a positive or negative development?",
   "In many modern cities, the sense of community among residents is declining as urban populations continue to grow. What are the main causes of this problem, and what measures can be taken to address it?",
-  "As cities expand, some people argue that local governments should prioritize creating public parks and green spaces over building new housing. To what extent do you agree or disagree with this statement?"
+  "As cities expand, some people argue that local governments should prioritize creating public parks and green spaces over building new housing. To what extent do you agree or disagree with this statement?",
+  "In many countries, traditional festivals and customs are disappearing as a result of globalization. Some people believe that governments should invest significant public funds to keep these traditions alive, while others argue that this money would be better spent on modern public services. To what extent do you agree or disagree?",
+  "In many parts of the world, younger generations are showing less interest in their local culture and heritage than previous generations did. What are the causes of this trend, and what measures can be taken to encourage young people to value their cultural roots?"
  ],
  "speaking": [
   "Describe a teacher who influenced you.\nYou should say: who this person was, what they taught you, how they behaved in class, and explain why they influenced you.",
