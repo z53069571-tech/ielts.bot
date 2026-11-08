@@ -690,6 +690,69 @@
      "exp": "Uchinchi tur shartli gaplar (3rd conditional) o'zlashtirma gapga aylantirilganda zamon shakli (Past Perfect - had studied) o'zgarmasdan qoladi."
     }
    ]
+  },
+  {
+   "id": "gg20261108",
+   "title": "Sifat va ravishlarning qiyosiy hamda orttirma darajalari (Advanced Comparatives & Superlatives)",
+   "meta": "Comparatives and superlatives · 5 ta savol",
+   "lv": 3,
+   "items": [
+    {
+     "q": "The ___ the research methodology employed in the study, the more reliable the final survey results will be.",
+     "opts": [
+      "more rigorous",
+      "most rigorous",
+      "much rigorous",
+      "rigorous"
+     ],
+     "ans": 0,
+     "exp": "'The + qiyosiy daraja..., the + qiyosiy daraja...' (qanchalik..., shunchalik...) parallel o'zgarish strukturasida birinchi qismda ham qiyosiy daraja ('more rigorous') ishlatilishi shart."
+    },
+    {
+     "q": "Electric vehicles are now considered by many industry analysts to be ___ superior to traditional petrol cars in terms of long-term efficiency.",
+     "opts": [
+      "most",
+      "vastly",
+      "more",
+      "very"
+     ],
+     "ans": 1,
+     "exp": "'Superior' sifati o'zida qiyosiy ma'noni bergani uchun uning oldidan 'more' ishlatilmaydi. Qiyosiy ma'noni kuchaytirish uchun 'vastly' (sezilarli darajada) ravishi qo'llaniladi."
+    },
+    {
+     "q": "The latest quantum computer is reported to process complex algorithms nearly five times ___ than its predecessor.",
+     "opts": [
+      "faster",
+      "as fast",
+      "fastest",
+      "more fast"
+     ],
+     "ans": 0,
+     "exp": "Gap oxirida 'than' bog'lovchisi bo'lgani uchun karra ko'payishini ko'rsatuvchi 'five times' iborasidan so'ng qiyosiy daraja ('faster') keladi."
+    },
+    {
+     "q": "Of all the renewable energy sources currently available, offshore wind power has shown ___ potential for large-scale urban development.",
+     "opts": [
+      "much the greater",
+      "by far greater",
+      "by far the greatest",
+      "far the greatest"
+     ],
+     "ans": 2,
+     "exp": "Barcha manbalar orasida eng yuqori darajani va ustunlikni ta'kidlash uchun 'by far' kuchaytiruvchi iborasi orttirma darajadagi sifat ('the greatest') bilan birga ishlatiladi."
+    },
+    {
+     "q": "The economic repercussions of the policy turned out to be ___ severe than initially projected by financial experts.",
+     "opts": [
+      "very more",
+      "substantially most",
+      "much most",
+      "substantially more"
+     ],
+     "ans": 3,
+     "exp": "Qiyosiy darajadagi 'more severe' iborasini kuchaytirish uchun 'substantially' (anchagina, sezilarli darajada) ravishi qo'llaniladi. 'Very' qiyosiy daraja bilan dog'ul ishlatilmaydi."
+    }
+   ]
   }
  ],
  "words": [
@@ -977,6 +1040,56 @@
    "w": "catalyst",
    "uz": "katalizator, jarayonni tezlatuvchi narsa",
    "ex": "Enzymes act as a catalyst to speed up biological reactions in the human body."
+  },
+  {
+   "w": "apparatus",
+   "uz": "uskunalar to'plami, apparat",
+   "ex": "The scientists set up the laboratory apparatus to measure the chemical reaction precisely."
+  },
+  {
+   "w": "contamination",
+   "uz": "ifloslanish, zararlanish",
+   "ex": "The samples were discarded due to potential contamination during the testing phase."
+  },
+  {
+   "w": "correlation",
+   "uz": "o'zaro bog'liqlik",
+   "ex": "Researchers found a strong correlation between sleep deprivation and reduced memory performance."
+  },
+  {
+   "w": "discrepancy",
+   "uz": "nomuvofiqlik, tafovut",
+   "ex": "A significant discrepancy was noticed between the predicted outcome and the experimental results."
+  },
+  {
+   "w": "extrapolate",
+   "uz": "mavjud ma'lumotlar asosida taxmin qilmoq",
+   "ex": "It is difficult to extrapolate future climate trends based solely on short-term data."
+  },
+  {
+   "w": "formulate",
+   "uz": "shakllantirmoq, ishlab chiqmoq",
+   "ex": "The team worked together to formulate a new drug that targets antibiotic-resistant bacteria."
+  },
+  {
+   "w": "precision",
+   "uz": "aniqlik",
+   "ex": "Scientific instruments must be calibrated regularly to ensure high precision in measurements."
+  },
+  {
+   "w": "simulate",
+   "uz": "modellashtirmoq, taqlid qilmoq",
+   "ex": "Computer software was used to simulate the atmospheric conditions on Mars."
+  },
+  {
+   "w": "variable",
+   "uz": "o'zgaruvchi",
+   "ex": "Temperature was the independent variable controlled throughout the experiment."
+  },
+  {
+   "w": "verification",
+   "uz": "tasdiqlash, tekshirish",
+   "ex": "Independent verification of the findings is required before the study can be published."
   }
  ],
  "writing": [
@@ -990,7 +1103,9 @@
   "In many countries, traditional festivals and customs are disappearing as a result of globalization. Some people believe that governments should invest significant public funds to keep these traditions alive, while others argue that this money would be better spent on modern public services. To what extent do you agree or disagree?",
   "In many parts of the world, younger generations are showing less interest in their local culture and heritage than previous generations did. What are the causes of this trend, and what measures can be taken to encourage young people to value their cultural roots?",
   "Some people believe that the increasing influence of global media is causing traditional local cultures to fade away, and that governments should take strict measures to protect local traditions. To what extent do you agree or disagree?",
-  "In many parts of the world, historical sites and cultural monuments are being damaged by mass tourism. What problems does this cause, and what measures can be taken to protect these cultural heritage sites?"
+  "In many parts of the world, historical sites and cultural monuments are being damaged by mass tourism. What problems does this cause, and what measures can be taken to protect these cultural heritage sites?",
+  "Governments should allocate public funding primarily to scientific research that solves immediate environmental problems, rather than spending money on space exploration. To what extent do you agree or disagree?",
+  "In recent years, fewer young people are choosing to study science subjects in higher education. What are the main causes of this trend, and what solutions can be implemented to address it?"
  ],
  "speaking": [
   "Describe a teacher who influenced you.\nYou should say: who this person was, what they taught you, how they behaved in class, and explain why they influenced you.",
