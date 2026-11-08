@@ -211,6 +211,59 @@
     }
    ],
    "script": "Welcome everyone to the annual International Cultural Exhibition. This year, our focus is on traditional textile arts from around the world. On the ground floor, you will find an extraordinary collection of hand-woven silk scarves from Central Asia, showcasing vibrant patterns that have been preserved for centuries. As you move upstairs to the main gallery, don't miss the exhibition dedicated to Indigenous Australian dot painting, where local artists will be holding interactive workshops every afternoon at two o'clock. Registration for these workshops is free, but places are limited to fifteen participants per session to ensure a hands-on experience. Finally, the outdoor courtyard will feature live folk music performances starting at five in the evening, alongside food stalls serving authentic regional dishes. Please remember that taking photographs with flash is strictly prohibited inside the museum galleries, although regular photography is allowed in the courtyard area. We hope you enjoy your visit today!"
+  },
+  {
+   "id": "lg20261108",
+   "title": "Chuqur dengiz mikroorganizmlarining ilmiy tadqiqoti",
+   "meta": "Audio · 4 ta savol",
+   "lv": 3,
+   "items": [
+    {
+     "q": "What primary energy source was used by the newly discovered sub-population of microorganisms?",
+     "opts": [
+      "Solar radiation",
+      "Sulfur compounds",
+      "Methane gas",
+      "Hydrogen gas"
+     ],
+     "ans": 3,
+     "exp": "Matnga ko'ra, oltingugurt birikmalariga tayanadi degan taxminlarga qaramay, olimlar vodorod gazidan asosiy energiya manbai sifatida foydalanuvchi kichik guruhni kashf etishdi."
+    },
+    {
+     "q": "What enables the proteins of these extremophiles to remain stable at high temperatures?",
+     "opts": [
+      "Continuous mineral absorption from vents",
+      "Standard hydrogen bonding systems",
+      "Thick layers of surrounding lipids",
+      "Dense networks of ionic bonds"
+     ],
+     "ans": 3,
+     "exp": "Oqsillar odatiy vodorod bog'lanishlari o'rniga zich ionli bog'lanishlar tarmog'iga ega bo'lganligi sababli yuqori haroratda o'z tuzilishini saqlaydi."
+    },
+    {
+     "q": "Which astronomical locations are suggested as possible habitats for similar life forms?",
+     "opts": [
+      "Europa and Enceladus",
+      "Venus and Triton",
+      "Mars and Titan",
+      "Ganymede and Callisto"
+     ],
+     "ans": 0,
+     "exp": "Matnda Yevropa va Enselad kabi muzli yo'ldoshlarning okean osti qatlamlarida shunga o'xshash hayot shakllari bo'lishi mumkinligi ta'kidlangan."
+    },
+    {
+     "q": "Where will the research team's findings be released next month?",
+     "opts": [
+      "In the International Marine Biology Review",
+      "In the Journal of Oceanographic Sciences",
+      "In the Deep-Sea Exploration Quarterly",
+      "In an official astrobiology report"
+     ],
+     "ans": 1,
+     "exp": "Ekspeditsiya topilmalari kelasi oyda 'Journal of Oceanographic Sciences' jurnalida chop etiladi."
+    }
+   ],
+   "script": "Recent deep-sea expeditions near the Mariana Trench have uncovered surprising metabolic adaptations in marine microorganisms living near hydrothermal vents. Contrary to previous assumptions that these organisms relied strictly on chemosynthesis driven by sulfur compounds, researchers discovered a sub-population that utilizes hydrogen gas as their primary energy source. This metabolic flexibility allows them to survive sudden fluctuations in mineral output from the vents. Furthermore, structural analysis of their cellular membranes revealed novel heat-resistant proteins capable of functioning at temperatures exceeding one hundred and twenty degrees Celsius. These proteins maintain structural integrity due to dense networks of ionic bonds rather than standard hydrogen bonds. Marine biologists hypothesize that these extremophiles could offer vital insights into potential extraterrestrial life forms, particularly those that might inhabit sub-surface oceans on icy moons such as Europa or Enceladus. The expedition's findings will be published in next month's edition of the Journal of Oceanographic Sciences."
   }
  ],
  "reading": [
@@ -365,6 +418,57 @@
    ],
    "text": "The Japanese tea ceremony, known as Chadō or \"the Way of Tea,\" is a cultural ritual steeped in Zen Buddhist philosophy. Originating in the ninth century, when Buddhist monks first brought tea leaves from China, the practice evolved over centuries into a refined art form. By the sixteenth century, master Sen no Rikyū transformed Chadō by emphasizing the concepts of harmony, respect, purity, and tranquility.\n\nCentral to the ceremony is the preparation of matcha, a finely powdered green tea. The host prepares the beverage with meticulous movements, every gesture dictated by centuries of etiquette. Guests enter the tearoom through a deliberately low sliding door called a nijiriguchi, which forces everyone to crawl, symbolically stripping away social status and creating equality among participants. While outsiders often view the ritual as a mere social gathering, practitioners consider it a form of active meditation that encourages mindfulness and deep appreciation of the present moment.\n\nIn contemporary Japan, traditional tea ceremonies are less common in daily life due to modern urbanization and fast-paced schedules. Nevertheless, Chadō remains widely preserved through specialized schools and cultural clubs, continuing to influence Japanese aesthetic values, including hospitality and seasonal awareness.",
    "en": "The Art of the Japanese Tea Ceremony"
+  },
+  {
+   "id": "rg20261108",
+   "title": "Kvant biologiyasi va qushlarning navigatsiya siri",
+   "meta": "True / False / Not Given · 4 ta savol",
+   "lv": 3,
+   "items": [
+    {
+     "q": "Laboratory-based magnetic resonance experiments have supported the plausibility of the cryptochrome compass mechanism.",
+     "opts": [
+      "True",
+      "False",
+      "Not Given"
+     ],
+     "ans": 0,
+     "exp": "Matnda \"magnetic resonance studies have corroborated the feasibility of this biochemical compass in vitro\" deb aytilgan, ya'ni laboratoriya (in vitro) sinovlari mexanizmning haqiqatga yaqinligini tasdiqlagan."
+    },
+    {
+     "q": "The intra-protein electron transfer in cryptochromes is initiated independently of external light stimulation.",
+     "opts": [
+      "True",
+      "False",
+      "Not Given"
+     ],
+     "ans": 1,
+     "exp": "Matnga ko'ra, elektron almashinuvi yorug'liksiz emas, balki aynan ko'k yorug'lik ta'sirida qo'zg'alish (\"Upon photoexcitation by blue light\") orqali yuzaga keladi."
+    },
+    {
+     "q": "Migratory birds rely more heavily on geomagnetic sensitivity than on celestial cues during night migrations.",
+     "opts": [
+      "True",
+      "False",
+      "Not Given"
+     ],
+     "ans": 2,
+     "exp": "Matnda geomagnit sezgirlik haqida so'z boradi, biroq qushlarning tunda osmon belgilariga (celestial cues) nisbatan magnit maydonga ko'proq tayanishi haqida hech qanday ma'lumot berilmagan."
+    },
+    {
+     "q": "According to the passage, why do critics question the cryptochrome hypothesis?",
+     "opts": [
+      "Cryptochromes cannot be photoexcited under realistic environmental wavelengths.",
+      "Migratory birds consistently fail to detect ambient geomagnetic fields in wild conditions.",
+      "Avian retinas have been proven to lack the necessary tryptophan residues for electron transfer.",
+      "Quantum coherence would need to survive thermal disruption longer than standard kinetics predict."
+     ],
+     "ans": 3,
+     "exp": "Matndagi \"Skeptics point out that the radical pair's quantum coherence must persist against thermal decoherence far longer than conventional chemical kinetics suggest is plausible\" jumlasi kvant kogerentligi termal shovqinga kutilganidan uzoqroq chidashi talab qilinishini tasdiqlaydi."
+    }
+   ],
+   "text": "Quantum biology explores non-trivial quantum phenomena in biological systems, once deemed impossible due to the warm, wet, and noisy cellular milieu. A seminal focus within this emerging discipline is avian magnetoreception, the sensory mechanism enabling migratory birds to navigate across planetary distances. The prevailing paradigm centers on cryptochromes—specialized flavoproteins located within avian retinas. Upon photoexcitation by blue light, a cryptochrome initiates an intra-protein electron transfer along a triad of tryptophan residues, generating a radical pair in a coherent quantum state. The spatiotemporal dynamics of this radical pair, specifically the interconversion between singlet and triplet spin states, are exquisitely sensitive to weak, ambient geomagnetic fields. Although magnetic resonance studies have corroborated the feasibility of this biochemical compass in vitro, translating these molecular behaviors to macro-scale navigational fidelity remains challenging. Skeptics point out that the radical pair's quantum coherence must persist against thermal decoherence far longer than conventional chemical kinetics suggest is plausible. Furthermore, the downstream neural pathways that transduce these quantum spin signals into perceivable visual or spatial cues in the avian brain have yet to be definitively mapped, leaving the empirical framework partially incomplete despite substantial biophysical modeling. Consequently, while quantum mechanics offers a compelling explanatory framework, absolute consensus eludes the scientific community.",
+   "en": "Quantum Biology and Avian Magnetoreception"
   }
  ],
  "grammar": [
@@ -823,6 +927,56 @@
    "w": "convention",
    "uz": "an'ana, qabul qilingan qoida",
    "ex": "Social conventions determine how people greet each other in formal settings."
+  },
+  {
+   "w": "empirical",
+   "uz": "tajribaga asoslangan, empirik",
+   "ex": "Researchers gathered empirical evidence to support their theory on climate change."
+  },
+  {
+   "w": "hypothesis",
+   "uz": "faraz, gipoteza",
+   "ex": "The scientist proposed a new hypothesis to explain the unusual chemical reaction."
+  },
+  {
+   "w": "phenomenon",
+   "uz": "hodisa, fenomen",
+   "ex": "Gravity is a natural phenomenon that pulls objects toward the Earth's center."
+  },
+  {
+   "w": "methodology",
+   "uz": "metodologiya, tadqiqot usuliyati",
+   "ex": "The study was criticized because its research methodology was not sufficiently rigorous."
+  },
+  {
+   "w": "replicate",
+   "uz": "takrorlamoq, nusxalamoq",
+   "ex": "Other laboratories were unable to replicate the results of the initial experiment."
+  },
+  {
+   "w": "breakthrough",
+   "uz": "muhim kashfiyot, keskin burilish",
+   "ex": "The development of the vaccine was a major medical breakthrough."
+  },
+  {
+   "w": "synthesize",
+   "uz": "sintez qilmoq, birlashtirmoq",
+   "ex": "Plants synthesize carbohydrates from carbon dioxide and water using sunlight."
+  },
+  {
+   "w": "theoretical",
+   "uz": "nazariy",
+   "ex": "The course covers both theoretical physics and practical laboratory work."
+  },
+  {
+   "w": "validity",
+   "uz": "haqiqiylik, asoslilik",
+   "ex": "Further testing is required to prove the validity of the research findings."
+  },
+  {
+   "w": "catalyst",
+   "uz": "katalizator, jarayonni tezlatuvchi narsa",
+   "ex": "Enzymes act as a catalyst to speed up biological reactions in the human body."
   }
  ],
  "writing": [
