@@ -857,6 +857,69 @@
      "exp": "Qiyosiy darajadagi 'more severe' iborasini kuchaytirish uchun 'substantially' (anchagina, sezilarli darajada) ravishi qo'llaniladi. 'Very' qiyosiy daraja bilan dog'ul ishlatilmaydi."
     }
    ]
+  },
+  {
+   "id": "gg20261109",
+   "title": "Gerund va Infinitiv (1-daraja)",
+   "meta": "Gerund vs infinitive · 5 ta savol",
+   "lv": 1,
+   "items": [
+    {
+     "q": "Many students enjoy ___ in group discussions during IELTS preparation classes.",
+     "opts": [
+      "participated",
+      "to participate",
+      "participate",
+      "participating"
+     ],
+     "ans": 3,
+     "exp": "'Enjoy' fe'lidan keyin har doim fe'lning gerund (-ing) shakli ishlatiladi. Shuning uchun 'participating' to'g'ri javobdir."
+    },
+    {
+     "q": "After careful consideration, she decided ___ for the IELTS exam in December.",
+     "opts": [
+      "registering",
+      "to register",
+      "register",
+      "registered"
+     ],
+     "ans": 1,
+     "exp": "'Decide' fe'lidan keyin fe'lning 'to' bilan keladigan infinitiv shakli ishlatiladi. Shuning uchun 'to register' to'g'ri javob."
+    },
+    {
+     "q": "Candidates should avoid ___ repetitive vocabulary in the IELTS Speaking test.",
+     "opts": [
+      "use",
+      "to use",
+      "using",
+      "used"
+     ],
+     "ans": 2,
+     "exp": "'Avoid' fe'li o'zidan keyin har doim gerund (-ing) shaklini talab qiladi. Shuning uchun 'using' to'g'ri keladi."
+    },
+    {
+     "q": "He hopes ___ a overall band score of 7.5 in his next attempt.",
+     "opts": [
+      "to achieve",
+      "achieved",
+      "achieving",
+      "achieve"
+     ],
+     "ans": 0,
+     "exp": "'Hope' fe'lidan keyin har doim 'to' bilan keladigan infinitiv shakli ishlatiladi. Shu sababli 'to achieve' to'g'ri javob."
+    },
+    {
+     "q": "The tutor suggested ___ more listening practice to improve overall comprehension.",
+     "opts": [
+      "doing",
+      "to do",
+      "done",
+      "do"
+     ],
+     "ans": 0,
+     "exp": "'Suggest' fe'lidan so'ng bevosita fe'l kelsa, u gerund (-ing) shaklida bo'lishi kerak. Shuning uchun 'doing' to'g'ri javob."
+    }
+   ]
   }
  ],
  "words": [
@@ -1244,6 +1307,56 @@
    "w": "obesity",
    "uz": "semizlik",
    "ex": "A sedentary lifestyle combined with a high-calorie diet is a primary cause of childhood obesity."
+  },
+  {
+   "w": "sustenance",
+   "uz": "yashash uchun zarur oziq-ovqat",
+   "ex": "During the long winter months, stored grains provided essential sustenance for the villagers."
+  },
+  {
+   "w": "nourishment",
+   "uz": "oziqlanish, quvvat manbai",
+   "ex": "A balanced meal provides the necessary nourishment for young children to grow healthy."
+  },
+  {
+   "w": "ingestion",
+   "uz": "ovqatni qabul qilish, yutish",
+   "ex": "The accidental ingestion of harmful chemicals in processed items can lead to severe health issues."
+  },
+  {
+   "w": "intake",
+   "uz": "qabul qilish miqdori",
+   "ex": "Reducing daily sugar intake can significantly lower the risk of chronic health conditions."
+  },
+  {
+   "w": "delicacy",
+   "uz": "tansiq taom, delikates",
+   "ex": "Caviar is considered a rare delicacy in many high-end restaurants around the world."
+  },
+  {
+   "w": "fortify",
+   "uz": "vitamin va moddalar bilan boyitmoq",
+   "ex": "Many food manufacturers fortify cereals with essential iron and vitamins to prevent deficiencies."
+  },
+  {
+   "w": "dietary",
+   "uz": "parhezga oid, oziqlanishga oid",
+   "ex": "Many modern consumers follow specific dietary guidelines to improve their physical well-being."
+  },
+  {
+   "w": "additive",
+   "uz": "qo'shimcha modda",
+   "ex": "Chemical additives are frequently used to extend shelf life and improve product color."
+  },
+  {
+   "w": "famine",
+   "uz": "ocharchilik",
+   "ex": "Severe droughts in the region caused a widespread famine that affected millions of people."
+  },
+  {
+   "w": "agriculture",
+   "uz": "qishloq xo'jaligi",
+   "ex": "Modern agriculture relies heavily on technology to maximize crop yields and feed growing populations."
   }
  ],
  "writing": [
@@ -1259,7 +1372,9 @@
   "Some people believe that the increasing influence of global media is causing traditional local cultures to fade away, and that governments should take strict measures to protect local traditions. To what extent do you agree or disagree?",
   "In many parts of the world, historical sites and cultural monuments are being damaged by mass tourism. What problems does this cause, and what measures can be taken to protect these cultural heritage sites?",
   "Governments should allocate public funding primarily to scientific research that solves immediate environmental problems, rather than spending money on space exploration. To what extent do you agree or disagree?",
-  "In recent years, fewer young people are choosing to study science subjects in higher education. What are the main causes of this trend, and what solutions can be implemented to address it?"
+  "In recent years, fewer young people are choosing to study science subjects in higher education. What are the main causes of this trend, and what solutions can be implemented to address it?",
+  "In many countries, fast food is becoming cheaper and more accessible than traditional, healthy meals. Some people believe that governments should impose higher taxes on unhealthy food products to discourage people from buying them. To what extent do you agree or disagree?",
+  "A significant amount of food produced globally is lost or wasted every year before it reaches consumers. What are the main causes of this food waste, and what solutions can governments and individuals implement to address this issue?"
  ],
  "speaking": [
   "Describe a teacher who influenced you.\nYou should say: who this person was, what they taught you, how they behaved in class, and explain why they influenced you.",
