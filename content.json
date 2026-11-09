@@ -264,6 +264,59 @@
     }
    ],
    "script": "Recent deep-sea expeditions near the Mariana Trench have uncovered surprising metabolic adaptations in marine microorganisms living near hydrothermal vents. Contrary to previous assumptions that these organisms relied strictly on chemosynthesis driven by sulfur compounds, researchers discovered a sub-population that utilizes hydrogen gas as their primary energy source. This metabolic flexibility allows them to survive sudden fluctuations in mineral output from the vents. Furthermore, structural analysis of their cellular membranes revealed novel heat-resistant proteins capable of functioning at temperatures exceeding one hundred and twenty degrees Celsius. These proteins maintain structural integrity due to dense networks of ionic bonds rather than standard hydrogen bonds. Marine biologists hypothesize that these extremophiles could offer vital insights into potential extraterrestrial life forms, particularly those that might inhabit sub-surface oceans on icy moons such as Europa or Enceladus. The expedition's findings will be published in next month's edition of the Journal of Oceanographic Sciences."
+  },
+  {
+   "id": "lg20261109",
+   "title": "Oziq-ovqat bozori bo'ylab tinglash mashqi",
+   "meta": "Audio · 4 ta savol",
+   "lv": 1,
+   "items": [
+    {
+     "q": "What time does the bakery open?",
+     "opts": [
+      "At 6:00",
+      "At 5:00",
+      "At 8:00",
+      "At 7:00"
+     ],
+     "ans": 0,
+     "exp": "Matnda novvoyxona erta ertalab soat oltida (six o'clock) ochilishi aytib o'tilgan."
+    },
+    {
+     "q": "How much do the oranges cost per kilogram today?",
+     "opts": [
+      "Four dollars",
+      "One dollar",
+      "Two dollars",
+      "Three dollars"
+     ],
+     "ans": 2,
+     "exp": "Matnga ko'ra, apelsinlar bugun arzon bo'lib, bir kilogrammi ikki dollar turadi."
+    },
+    {
+     "q": "Where does the fresh fish come from?",
+     "opts": [
+      "From a nearby lake",
+      "From a local farm",
+      "From another town",
+      "From the ocean"
+     ],
+     "ans": 0,
+     "exp": "Matnda yangi baliqlar bugun ertalab yaqin atrofdagi ko'ldan (nearby lake) tutib kelingani ta'kidlangan."
+    },
+    {
+     "q": "What can visitors find near the exit?",
+     "opts": [
+      "A small café",
+      "A bakery",
+      "A seafood counter",
+      "A fruit stall"
+     ],
+     "ans": 0,
+     "exp": "Matn oxirida chiqish eshigi yaqinida (near the exit) kichik kafe joylashgani aytilgan."
+    }
+   ],
+   "script": "Welcome to the City Central Market. My name is Sarah, and today I will show you our famous local food section. On your left, you can find fresh bread made every morning by our local bakers. The bakery opens early at six o'clock, so the bread is always warm and fresh. Next to the bakery, there is a large fruit stall. They sell sweet red apples, bananas, and juicy oranges from local farms. The oranges are very cheap today, only two dollars for a kilogram. If you walk straight ahead, you will see the seafood counter. They sell fresh fish caught from the nearby lake this morning. Finally, near the exit, we have a small café. Many people like to stop there to drink vegetable soup and tea. The café is famous for its delicious homemade cakes, which cost three dollars each. Please enjoy your time exploring our market today!"
   }
  ],
  "reading": [
@@ -469,6 +522,57 @@
    ],
    "text": "Quantum biology explores non-trivial quantum phenomena in biological systems, once deemed impossible due to the warm, wet, and noisy cellular milieu. A seminal focus within this emerging discipline is avian magnetoreception, the sensory mechanism enabling migratory birds to navigate across planetary distances. The prevailing paradigm centers on cryptochromes—specialized flavoproteins located within avian retinas. Upon photoexcitation by blue light, a cryptochrome initiates an intra-protein electron transfer along a triad of tryptophan residues, generating a radical pair in a coherent quantum state. The spatiotemporal dynamics of this radical pair, specifically the interconversion between singlet and triplet spin states, are exquisitely sensitive to weak, ambient geomagnetic fields. Although magnetic resonance studies have corroborated the feasibility of this biochemical compass in vitro, translating these molecular behaviors to macro-scale navigational fidelity remains challenging. Skeptics point out that the radical pair's quantum coherence must persist against thermal decoherence far longer than conventional chemical kinetics suggest is plausible. Furthermore, the downstream neural pathways that transduce these quantum spin signals into perceivable visual or spatial cues in the avian brain have yet to be definitively mapped, leaving the empirical framework partially incomplete despite substantial biophysical modeling. Consequently, while quantum mechanics offers a compelling explanatory framework, absolute consensus eludes the scientific community.",
    "en": "Quantum Biology and Avian Magnetoreception"
+  },
+  {
+   "id": "rg20261109",
+   "title": "Shokolad tarixi va global ommabopligi",
+   "meta": "True / False / Not Given · 4 ta savol",
+   "lv": 1,
+   "items": [
+    {
+     "q": "The Maya and Aztec people consumed chocolate mainly as a liquid rather than a solid food.",
+     "opts": [
+      "True",
+      "False",
+      "Not Given"
+     ],
+     "ans": 0,
+     "exp": "Tog'ri. Matnda \"They did not eat chocolate in solid bars as we do now; instead, they drank it as a bitter beverage\" deb ta'kidlangan."
+    },
+    {
+     "q": "Spanish explorers were the first to add chili peppers to cacao drinks.",
+     "opts": [
+      "True",
+      "False",
+      "Not Given"
+     ],
+     "ans": 1,
+     "exp": "Noto'g'ri. Matnga ko'ra, qalampirni qadimgi Maya va Atsteklar qo'shishgan, ispanlar esa shakar va sut qo'shishgan."
+    },
+    {
+     "q": "The majority of cacao bean farmers in West Africa live below the poverty line.",
+     "opts": [
+      "True",
+      "False",
+      "Not Given"
+     ],
+     "ans": 2,
+     "exp": "Berilmagan. Matnda G'arbiy Afrikadagi kakao ishlab chiqarish miqdori aytilgan, ammo fermerlarning daromadi yoki kambag'allik darajasi haqida ma'lumot yo'q."
+    },
+    {
+     "q": "Which country is currently the world's biggest exporter of cacao beans?",
+     "opts": [
+      "Brazil",
+      "Spain",
+      "Mexico",
+      "Ivory Coast"
+     ],
+     "ans": 3,
+     "exp": "Matndagi \"...with Ivory Coast being the largest individual exporter\" jumlasiga ko'ra javob Kot-d'Ivuar hisoblanadi."
+    }
+   ],
+   "text": "Chocolate is one of the most popular foods in the world today, enjoyed by millions of people every day. However, its history began thousands of years ago in Central and South America. The ancient Maya and Aztec civilizations were the first to cultivate cacao trees. They did not eat chocolate in solid bars as we do now; instead, they drank it as a bitter beverage mixed with spices and chili peppers. They believed cacao seeds were a gift from the gods and even used them as a form of money.\n\nIn the sixteenth century, Spanish explorers brought cacao back to Europe. European cooks added sugar and milk to suit local tastes, transforming the bitter drink into a sweet luxury for royalty. It was not until the nineteenth century that modern machinery allowed companies to manufacture solid eating chocolate on a large scale.\n\nToday, chocolate production is a massive global industry. West Africa produces more than sixty percent of the world's cacao beans, with Ivory Coast being the largest individual exporter. Although chocolate contains antioxidants that may offer health benefits, experts warn that consuming too much sweet chocolate can lead to health problems like tooth decay and weight gain due to high sugar levels.",
+   "en": "The History and Global Appeal of Chocolate"
   }
  ],
  "grammar": [
@@ -1090,6 +1194,56 @@
    "w": "verification",
    "uz": "tasdiqlash, tekshirish",
    "ex": "Independent verification of the findings is required before the study can be published."
+  },
+  {
+   "w": "consumption",
+   "uz": "iste'mol",
+   "ex": "The excessive consumption of processed foods has contributed significantly to modern health crises."
+  },
+  {
+   "w": "nutritious",
+   "uz": "to'yimli, ozuqaviy qiymati yuqori",
+   "ex": "Schools should ensure that all cafeteria meals are nutritious and well-balanced."
+  },
+  {
+   "w": "staple",
+   "uz": "asosiy oziq-ovqat mahsuloti",
+   "ex": "Rice remains the primary staple food for more than half of the world's population."
+  },
+  {
+   "w": "scarcity",
+   "uz": "tanqislik, yetishmovchilik",
+   "ex": "Severe droughts often lead to acute food scarcity in developing agricultural nations."
+  },
+  {
+   "w": "perishable",
+   "uz": "tez buziladigan",
+   "ex": "Perishable goods like milk and fresh meat require constant refrigeration during transport."
+  },
+  {
+   "w": "preservative",
+   "uz": "konservant, buzilishdan saqlovchi modda",
+   "ex": "Many consumers now prefer organic food items that contain no artificial preservatives."
+  },
+  {
+   "w": "malnutrition",
+   "uz": "yetarli oziqlanmaslik, to'yib ovqatlanmaslik",
+   "ex": "Global aid organizations are working relentlessly to eradicate child malnutrition in crisis regions."
+  },
+  {
+   "w": "culinary",
+   "uz": "pazandachilikka oid",
+   "ex": "Studying culinary traditions allows researchers to better understand how ancient societies lived."
+  },
+  {
+   "w": "palatable",
+   "uz": "mazali, ishtahabop",
+   "ex": "Manufacturers frequently add extra sugar and salt to make frozen meals more palatable."
+  },
+  {
+   "w": "obesity",
+   "uz": "semizlik",
+   "ex": "A sedentary lifestyle combined with a high-calorie diet is a primary cause of childhood obesity."
   }
  ],
  "writing": [
