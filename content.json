@@ -317,6 +317,59 @@
     }
    ],
    "script": "Welcome to the City Central Market. My name is Sarah, and today I will show you our famous local food section. On your left, you can find fresh bread made every morning by our local bakers. The bakery opens early at six o'clock, so the bread is always warm and fresh. Next to the bakery, there is a large fruit stall. They sell sweet red apples, bananas, and juicy oranges from local farms. The oranges are very cheap today, only two dollars for a kilogram. If you walk straight ahead, you will see the seafood counter. They sell fresh fish caught from the nearby lake this morning. Finally, near the exit, we have a small café. Many people like to stop there to drink vegetable soup and tea. The café is famous for its delicious homemade cakes, which cost three dollars each. Please enjoy your time exploring our market today!"
+  },
+  {
+   "id": "lg20261110",
+   "title": "Shahar sport majmuasidagi yangilanishlar",
+   "meta": "Audio · 4 ta savol",
+   "lv": 2,
+   "items": [
+    {
+     "q": "When will the renovated facilities officially open to the public?",
+     "opts": [
+      "Next month",
+      "This Thursday",
+      "This Friday",
+      "Next Monday"
+     ],
+     "ans": 1,
+     "exp": "Matnda ta'mirlangan inshootlar shu payshanba kuni omma uchun rasman ochilishi aytib o'tilgan."
+    },
+    {
+     "q": "How many new cardio machines have been added to the gymnasium?",
+     "opts": [
+      "10",
+      "28",
+      "5",
+      "20"
+     ],
+     "ans": 3,
+     "exp": "Keltirilgan ma'lumotga ko'ra, sport zaliga yigirmata (20) yangi kardio trenajyorlari qo'shilgan."
+    },
+    {
+     "q": "How can existing members avoid the upcoming fee increase?",
+     "opts": [
+      "By paying five percent less this week",
+      "By visiting the complex only on Sundays",
+      "By booking all fitness classes through the app",
+      "By renewing their membership before Friday"
+     ],
+     "ans": 3,
+     "exp": "Mavjud a me'yorlar juma kunigacha a'zolikni uzaytirish orqali amaldagi narxlarni saqlab qolishlari mumkin."
+    },
+    {
+     "q": "How far in advance must group fitness classes be booked?",
+     "opts": [
+      "At least five hours",
+      "At least two hours",
+      "At least one hour",
+      "At least one day"
+     ],
+     "ans": 1,
+     "exp": "Guruh mashg'ulotlariga qatnashish uchun mashg'ulot boshlanishidan kamida ikki soat oldin ilova orqali joy band qilish lozim."
+    }
+   ],
+   "script": "Welcome to the City Sports Complex. We are thrilled to announce our newly renovated facilities, which will officially open to the public this Thursday. Members can now enjoy an upgraded indoor swimming pool, which has been heated to twenty-eight degrees Celsius for comfort. Additionally, we have expanded our gymnasium by adding twenty new cardio machines and a dedicated area for functional fitness training. Please note that our opening hours have changed. We will now open at six in the morning and close at ten in the evening from Monday to Saturday, while Sunday hours remain nine to five. Standard membership fees will increase by five percent next month, but existing members can lock in their current rates by renewing before Friday. Finally, all group fitness classes, including yoga and spin, require advance booking through our mobile app at least two hours before the session begins."
   }
  ],
  "reading": [
@@ -573,6 +626,57 @@
    ],
    "text": "Chocolate is one of the most popular foods in the world today, enjoyed by millions of people every day. However, its history began thousands of years ago in Central and South America. The ancient Maya and Aztec civilizations were the first to cultivate cacao trees. They did not eat chocolate in solid bars as we do now; instead, they drank it as a bitter beverage mixed with spices and chili peppers. They believed cacao seeds were a gift from the gods and even used them as a form of money.\n\nIn the sixteenth century, Spanish explorers brought cacao back to Europe. European cooks added sugar and milk to suit local tastes, transforming the bitter drink into a sweet luxury for royalty. It was not until the nineteenth century that modern machinery allowed companies to manufacture solid eating chocolate on a large scale.\n\nToday, chocolate production is a massive global industry. West Africa produces more than sixty percent of the world's cacao beans, with Ivory Coast being the largest individual exporter. Although chocolate contains antioxidants that may offer health benefits, experts warn that consuming too much sweet chocolate can lead to health problems like tooth decay and weight gain due to high sugar levels.",
    "en": "The History and Global Appeal of Chocolate"
+  },
+  {
+   "id": "rg20261110",
+   "title": "Zamonaviy Olimpiya O'yinlari va Texnologiya",
+   "meta": "True / False / Not Given · 4 ta savol",
+   "lv": 2,
+   "items": [
+    {
+     "q": "Women were not allowed to compete in the 1896 Athens Olympic Games.",
+     "opts": [
+      "True",
+      "False",
+      "Not Given"
+     ],
+     "ans": 0,
+     "exp": "Matndagi 'Initially, the Games featured a limited number of events and only male participants' jumlasiga ko'ra, 1896-yilgi birinchi o'yinlarda faqat erkaklar qatnashgan."
+    },
+    {
+     "q": "Modern synthetic running surfaces have resulted in slower race times compared to older cinder tracks.",
+     "opts": [
+      "True",
+      "False",
+      "Not Given"
+     ],
+     "ans": 1,
+     "exp": "Matnda zamonaviy sintetik yo'lakchalar poyga vaqtini sekinlashtirmagan, aksincha tezroq natijalarga ('contributing to faster race times') olib kelgani ta'kidlangan."
+    },
+    {
+     "q": "The majority of Olympic athletes prefer traditional equipment over high-tech gear.",
+     "opts": [
+      "True",
+      "False",
+      "Not Given"
+     ],
+     "ans": 2,
+     "exp": "Matnda texnologiyalardan foydalanish haqida aytilgan bo'lsa-da, ko'pchilik sportchilar an'anaviy jihozlarni afzal ko'rish-ko'rmasligi haqida ma'lumot berilmagan."
+    },
+    {
+     "q": "What is one major concern raised by critics regarding the use of advanced technology in sports?",
+     "opts": [
+      "It provides an unfair benefit to richer countries.",
+      "It leads to a higher frequency of physical injuries.",
+      "It reduces spectator enjoyment during live matches.",
+      "It completely replaces the need for human coaches."
+     ],
+     "ans": 0,
+     "exp": "Matndagi 'some critics argue that technology creates an unfair advantage for wealthier nations' jumlasiga ko'ra, tanqidchilar texnologiya boy davlatlarga adolatsiz ustunlik beradi deb xavotir bildiradilar."
+    }
+   ],
+   "text": "The modern Olympic Games have undergone significant transformations since their revival in Athens in 1896. Initially, the Games featured a limited number of events and only male participants. Over the decades, the event expanded to include women, winter sports, and a vastly larger array of athletic disciplines. However, the most profound changes in recent years have been driven by technological advancements.\n\nToday, advanced technology plays a critical role in both athlete training and officiating. High-speed cameras, wearable sensors, and motion analysis software allow coaches to monitor an athlete's biomechanics in real time. This data helps reduce injury risks and optimize performance. In sports like track and field, modern synthetic running surfaces have replaced traditional cinder tracks, contributing to faster race times and new world records.\n\nFurthermore, video assistant referee (VAR) systems and electronic scoring have minimized human errors in officiating. Despite these benefits, some critics argue that technology creates an unfair advantage for wealthier nations that can afford expensive equipment. Consequently, governing bodies are working to establish regulations that balance technological innovation with the traditional principles of sportsmanship and equal opportunity.",
+   "en": "Modern Olympic Games and Technology"
   }
  ],
  "grammar": [
@@ -1357,6 +1461,56 @@
    "w": "agriculture",
    "uz": "qishloq xo'jaligi",
    "ex": "Modern agriculture relies heavily on technology to maximize crop yields and feed growing populations."
+  },
+  {
+   "w": "strenuous",
+   "uz": "jismonan og'ir, ko'p kuch talab qiladigan",
+   "ex": "Professional athletes often engage in strenuous exercise routines to prepare for major competitions."
+  },
+  {
+   "w": "endurance",
+   "uz": "chidamlilik, bardoshlik",
+   "ex": "Marathon runners rely heavily on physical endurance to complete the long distance."
+  },
+  {
+   "w": "agility",
+   "uz": "chaqqonlik, harakatchanlik",
+   "ex": "Gymnasts require exceptional balance and agility to perform complex routines safely."
+  },
+  {
+   "w": "sedentary",
+   "uz": "kamharakat, o'tirib ishlanadigan",
+   "ex": "Engaging in regular sports can help offset the negative health impacts of a sedentary lifestyle."
+  },
+  {
+   "w": "exertion",
+   "uz": "zo'riqish, kuch sarflash",
+   "ex": "After hours of physical exertion on the pitch, the football players were completely exhausted."
+  },
+  {
+   "w": "competitive",
+   "uz": "raqobatbardosh, musobaqalashuvchan",
+   "ex": "Participating in competitive sports helps teenagers develop resilience and teamwork skills."
+  },
+  {
+   "w": "participation",
+   "uz": "ishtirok etish",
+   "ex": "Schools should encourage wider participation in physical activities among young students."
+  },
+  {
+   "w": "coordination",
+   "uz": "koordinatsiya, harakatlar moslashuvi",
+   "ex": "Tennis demands excellent hand-eye coordination to hit the ball accurately."
+  },
+  {
+   "w": "discipline",
+   "uz": "intizom, o'zini idora qilish",
+   "ex": "Achieving success in elite athletics requires intense personal discipline and strict daily training."
+  },
+  {
+   "w": "recreational",
+   "uz": "hordiq chiqarishga oid, ko'ngilochar",
+   "ex": "Many adults play amateur football strictly for recreational purposes rather than competition."
   }
  ],
  "writing": [
