@@ -370,6 +370,59 @@
     }
    ],
    "script": "Welcome to the City Sports Complex. We are thrilled to announce our newly renovated facilities, which will officially open to the public this Thursday. Members can now enjoy an upgraded indoor swimming pool, which has been heated to twenty-eight degrees Celsius for comfort. Additionally, we have expanded our gymnasium by adding twenty new cardio machines and a dedicated area for functional fitness training. Please note that our opening hours have changed. We will now open at six in the morning and close at ten in the evening from Monday to Saturday, while Sunday hours remain nine to five. Standard membership fees will increase by five percent next month, but existing members can lock in their current rates by renewing before Friday. Finally, all group fitness classes, including yoga and spin, require advance booking through our mobile app at least two hours before the session begins."
+  },
+  {
+   "id": "lg20261111",
+   "title": "Raqamli Ommaviy Axborot Vositalari va Algoritmlar Ta'siri",
+   "meta": "Audio · 4 ta savol",
+   "lv": 3,
+   "items": [
+    {
+     "q": "What drives content prioritization on contemporary digital platforms?",
+     "opts": [
+      "User engagement metrics and emotional triggers",
+      "Governmental regulations and media literacy rules",
+      "Direct input from regional investigative journalists",
+      "Journalistic integrity and public interest"
+     ],
+     "ans": 0,
+     "exp": "Matnga ko'ra, zamonaviy raqamli platformalar kontentni tartiblashda foydalanuvchi bosishlari (clicks) va emotsional omillarga asoslangan algoritmlardan foydalanadi."
+    },
+    {
+     "q": "What is highlighted as an unintended negative consequence of personalized news feeds?",
+     "opts": [
+      "A sudden drop in overall user retention",
+      "The complete removal of advertising online",
+      "The formation of ideological echo chambers",
+      "An overabundance of regional news coverage"
+     ],
+     "ans": 2,
+     "exp": "Shaxsiylashtirilgan yangiliklar tasmasi bilmasdan auditoriyani faqat ularning mavjud qarashlarini tasdiqlovchi 'sado kameralari' (echo chambers) ichida qamrab qo'yadi."
+    },
+    {
+     "q": "How has the redistribution of digital ad revenue affected local news outlets?",
+     "opts": [
+      "It led to a severe reduction in regional investigative journalism.",
+      "It increased their total overall funding significantly.",
+      "It forced them to merge with social media conglomerates.",
+      "It allowed them to expand into secondary education programs."
+     ],
+     "ans": 0,
+     "exp": "Reklama daromadlarining yirik platformalarga o'tib ketishi hududiy darajadagi surishtiruv jurnalistikasining keskin pasayishiga olib keldi."
+    },
+    {
+     "q": "Why are media literacy programs being incorporated into secondary education?",
+     "opts": [
+      "To encourage young citizens to avoid digital news entirely",
+      "To train students for future careers in social media advertising",
+      "To help students assess source credibility and objective reporting",
+      "To teach students how to design automated media algorithms"
+     ],
+     "ans": 2,
+     "exp": "Media savodxonligi dasturlari yoshlarga manbalarning ishonchliligini baholash va obyektiv axborotni homiylik kontentidan ajrata olish ko'nikmasini beradi."
+    }
+   ],
+   "script": "Good morning, everyone. Today, we are analyzing the impact of automated algorithms on modern news consumption. Traditionally, editors determined the prominent stories based on public interest and journalistic integrity. However, contemporary digital platforms utilize complex engagement-driven algorithms that prioritize content based on user clicks and emotional triggers. While this personalization enhances user retention, it inadvertently creates echo chambers, where audiences are exposed exclusively to viewpoints that reinforce their pre-existing beliefs. Furthermore, local news outlets have suffered a dramatic decline in ad revenue, as major social media conglomerates now capture the vast majority of digital advertising spend. This financial shift has decimated investigative journalism at the regional level. Consequently, media literacy programs are becoming essential in secondary education, aiming to equip young citizens with the critical thinking skills needed to evaluate source credibility, distinguish sponsored content from objective reporting, and actively seek out diverse perspectives in an increasingly fragmented digital landscape."
   }
  ],
  "reading": [
@@ -677,6 +730,57 @@
    ],
    "text": "The modern Olympic Games have undergone significant transformations since their revival in Athens in 1896. Initially, the Games featured a limited number of events and only male participants. Over the decades, the event expanded to include women, winter sports, and a vastly larger array of athletic disciplines. However, the most profound changes in recent years have been driven by technological advancements.\n\nToday, advanced technology plays a critical role in both athlete training and officiating. High-speed cameras, wearable sensors, and motion analysis software allow coaches to monitor an athlete's biomechanics in real time. This data helps reduce injury risks and optimize performance. In sports like track and field, modern synthetic running surfaces have replaced traditional cinder tracks, contributing to faster race times and new world records.\n\nFurthermore, video assistant referee (VAR) systems and electronic scoring have minimized human errors in officiating. Despite these benefits, some critics argue that technology creates an unfair advantage for wealthier nations that can afford expensive equipment. Consequently, governing bodies are working to establish regulations that balance technological innovation with the traditional principles of sportsmanship and equal opportunity.",
    "en": "Modern Olympic Games and Technology"
+  },
+  {
+   "id": "rg20261111",
+   "title": "Raqamli davrda jurnalistikaning algoritmlar ta'siridagi inqirozi",
+   "meta": "True / False / Not Given · 4 ta savol",
+   "lv": 3,
+   "items": [
+    {
+     "q": "Modern news distribution pathways are increasingly governed by data that tracks user interaction.",
+     "opts": [
+      "True",
+      "False",
+      "Not Given"
+     ],
+     "ans": 0,
+     "exp": "Matnda \"aggregate engagement metrics and real-time behavioral surveillance now dictate programmatic distribution pathways\" deyilgan, ya'ni foydalanuvchilarning o'zaro ta'sir ko'rsatkichlari axborot tarqatilishini belgilashi tasdiqlangan (True)."
+    },
+    {
+     "q": "Critical media theorists agree that digital platforms have successfully diminished partisan divisions.",
+     "opts": [
+      "True",
+      "False",
+      "Not Given"
+     ],
+     "ans": 1,
+     "exp": "Matnda media nazariyotchilari algoritmlar tufayli bo'linishlar kamayganini emas, balki aksincha guruhlar ichidagi tarafkashlik yanada radikallashganini ta'kidlaydi: \"algorithmic imperatives reinforce socio-cognitive silos, effectively radicalizing partisan divisions\" (False)."
+    },
+    {
+     "q": "Regulatory bodies have imposed heavy fines on media platforms generating synthetic content.",
+     "opts": [
+      "True",
+      "False",
+      "Not Given"
+     ],
+     "ans": 2,
+     "exp": "Matnda sintetik medianing ko'payishi (\"generative synthetic media... proliferate\") eslatib o'tilgan, ammo nazorat qiluvchi organlar yoki jarimalar haqida hech qanday ma'lumot berilmagan (Not Given)."
+    },
+    {
+     "q": "According to the passage, journalists often sacrifice thorough factual verification because:",
+     "opts": [
+      "legacy newsrooms are financially incapable of funding long-term investigative reporting.",
+      "automated artificial intelligence tools have made traditional fact-checking methods redundant.",
+      "media consumers have expressed an explicit preference for brief, unverified breaking news.",
+      "the uninterrupted pace of the modern news cycle drastically limits the time available for checking facts."
+     ],
+     "ans": 3,
+     "exp": "Matndagi \"the relentless acceleration of the 24-hour news cycle has drastically compressed verification windows, compelling reporters to prioritize publishing velocity over meticulous factual corroboration\" jumlasi faktlarni tekshirish uchun vaqt keskin kamayganini to'g'ridan-to'g'ri ko'rsatadi."
+    }
+   ],
+   "text": "In the contemporary digital ecology, the traditional bastions of Fourth Estate journalism face unprecedented disintermediation. The proliferation of algorithmic content curation has systematically recalibrated editorial autonomy across global media conglomerates. Historically, legacy newsrooms functioned as primary arbiters of public discourse, deploying normative ethical standards to determine agenda-setting priorities. However, aggregate engagement metrics and real-time behavioral surveillance now dictate programmatic distribution pathways, thereby subordinating nuanced investigative depth to the immediate gratification of visceral user response. This systemic recalibration has simultaneously catalyzed a profound crisis of epistemic veracity. As generative synthetic media and algorithmic feedback loops proliferate, the ontological boundary between empirically grounded reportage and speculative provocation becomes increasingly blurred. While technological proponents assert that decentralized digital platforms democratize narrative production, critical media theorists contend that hyper-commercialized algorithmic imperatives reinforce socio-cognitive silos, effectively radicalizing partisan divisions. Furthermore, the relentless acceleration of the 24-hour news cycle has drastically compressed verification windows, compelling reporters to prioritize publishing velocity over meticulous factual corroboration. Without institutional reform to curb sensationalist algorithms, independent journalism risks devolving into a mere vehicle for algorithmic optimization rather than civic enlightenment.",
+   "en": "Algorithmic Disintermediation and the Crisis of Journalistic Autonomy"
   }
  ],
  "grammar": [
@@ -1561,6 +1665,56 @@
    "w": "dominance",
    "uz": "ustunlik",
    "ex": "The national team demonstrated complete dominance throughout the international tournament."
+  },
+  {
+   "w": "censorship",
+   "uz": "Senzura (axborotni cheklash)",
+   "ex": "Strict government censorship limits the freedom of expression in many media outlets."
+  },
+  {
+   "w": "sensationalism",
+   "uz": "Shov-shuvlilik (bo'rttirib ko'rsatish)",
+   "ex": "Modern news channels are often criticized for prioritizing sensationalism over objective reporting."
+  },
+  {
+   "w": "impartiality",
+   "uz": "Xolislik, betaraflik",
+   "ex": "Journalists are expected to maintain impartiality when reporting on political controversies."
+  },
+  {
+   "w": "broadcasting",
+   "uz": "Teleradioeshittirish, efirga uzatish",
+   "ex": "The digital era has fundamentally transformed the traditional television broadcasting industry."
+  },
+  {
+   "w": "disinformation",
+   "uz": "Dezinformatsiya (yolg'on ma'lumot)",
+   "ex": "Social media platforms struggle to prevent the rapid spread of political disinformation."
+  },
+  {
+   "w": "coverage",
+   "uz": "Yoritish (matbuotda)",
+   "ex": "The international media provided extensive coverage of the global economic summit."
+  },
+  {
+   "w": "mainstream",
+   "uz": "Ommabop media, asosiy oqim",
+   "ex": "Independent podcasters are increasingly challenging the dominance of mainstream media."
+  },
+  {
+   "w": "bias",
+   "uz": "Tarafkashlik, xolis bo'lmaslik",
+   "ex": "Readers should be aware of potential media bias when consuming news from commercial sources."
+  },
+  {
+   "w": "circulation",
+   "uz": "Tiraj (bosma nashrlar soni)",
+   "ex": "Print newspapers have experienced a dramatic decline in circulation over the last decade."
+  },
+  {
+   "w": "pervasive",
+   "uz": "Barcha yerda mavjud, keng tarqalgan",
+   "ex": "The pervasive influence of digital advertising affects consumer choices across all demographics."
   }
  ],
  "writing": [
