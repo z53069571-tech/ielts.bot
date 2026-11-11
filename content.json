@@ -1128,6 +1128,69 @@
      "exp": "'Suggest' fe'lidan so'ng bevosita fe'l kelsa, u gerund (-ing) shaklida bo'lishi kerak. Shuning uchun 'doing' to'g'ri javob."
     }
    ]
+  },
+  {
+   "id": "gg20261111",
+   "title": "Bog'lovchi so'zlar (Linking Words) - Murakkab daraja",
+   "meta": "Linking words · 5 ta savol",
+   "lv": 3,
+   "items": [
+    {
+     "q": "The government implemented stringent environmental policies; ______, the rate of industrial carbon emissions continued to rise dramatically.",
+     "opts": [
+      "in light of which",
+      "notwithstanding this",
+      "by the same token",
+      "as a consequence"
+     ],
+     "ans": 1,
+     "exp": "'Notwithstanding this' rasmiy akademik tilda 'shunga qaramasdan' ma'nosini bildiradi va kutilmagan ziddiyatni ifodalash uchun ishlatiladi."
+    },
+    {
+     "q": "The committee agreed that the proposed development could proceed, ______ comprehensive environmental impact assessments were completed beforehand.",
+     "opts": [
+      "albeit",
+      "lest",
+      "whereas",
+      "provided that"
+     ],
+     "ans": 3,
+     "exp": "'Provided that' iborasi 'sharti bilan' yoki 'agar' ma'nosidagi shart bog'lovchisi bo'lib, rasmiy uslubda qo'llaniladi."
+    },
+    {
+     "q": "Urban planners must implement flood defense mechanisms, ______ extreme weather events overwhelm the existing drainage infrastructure.",
+     "opts": [
+      "lest",
+      "so much so that",
+      "inasmuch as",
+      "despite"
+     ],
+     "ans": 0,
+     "exp": "'Lest' so'zi rasmiy tilda 'mabodo ... bo'lmasligi uchun' yoki 'xavfi tufayli' ma'nosida salbiy oqibatning oldini olish maqsadini ifodalaydi."
+    },
+    {
+     "q": "______ the findings appeared at first glance, further replication studies failed to substantiate the initial claims.",
+     "opts": [
+      "Convincing though",
+      "In spite of",
+      "Even if",
+      "Much as"
+     ],
+     "ans": 0,
+     "exp": "'Sifat + though + ega + kesim' (Convincing though the findings appeared...) konstruksiyasi ilg'or darajadagi zidlik (inversiya) strukturasidir."
+    },
+    {
+     "q": "Remote working can significantly enhance employee productivity, ______ it eliminates the stress associated with daily commuting.",
+     "opts": [
+      "inasmuch as",
+      "whereas",
+      "regardless of",
+      "nevertheless"
+     ],
+     "ans": 0,
+     "exp": "'Inasmuch as' bog'lovchisi akademik ingliz tilida 'chunki' yoki 'sababli' (since/because) ma'nosini anglatib, sababni asoslash uchun ishlatiladi."
+    }
+   ]
   }
  ],
  "words": [
@@ -1715,6 +1778,56 @@
    "w": "pervasive",
    "uz": "Barcha yerda mavjud, keng tarqalgan",
    "ex": "The pervasive influence of digital advertising affects consumer choices across all demographics."
+  },
+  {
+   "w": "disseminate",
+   "uz": "tarqatmoq",
+   "ex": "Social media platforms make it much easier to rapidly disseminate news to global audiences."
+  },
+  {
+   "w": "narrative",
+   "uz": "talqin, qarash",
+   "ex": "The documentary sought to challenge the dominant political narrative presented on television."
+  },
+  {
+   "w": "scrutiny",
+   "uz": "sinchkov tekshiruv, nazorat",
+   "ex": "Public figures often face intense media scrutiny regarding their private lives."
+  },
+  {
+   "w": "credibility",
+   "uz": "ishonchlilik",
+   "ex": "Unverified rumors can seriously undermine the credibility of a news agency."
+  },
+  {
+   "w": "propaganda",
+   "uz": "tashviqot, targ'ibot",
+   "ex": "During the war, national television was heavily utilized as an instrument for state propaganda."
+  },
+  {
+   "w": "distort",
+   "uz": "buzib ko'rsatmoq",
+   "ex": "Selective editing can easily distort the truth and mislead the public about an event."
+  },
+  {
+   "w": "editorial",
+   "uz": "tahririy maqola",
+   "ex": "The morning newspaper published a critical editorial on government spending."
+  },
+  {
+   "w": "manipulate",
+   "uz": "ustalik bilan boshqarmoq, chalg'itmoq",
+   "ex": "Advertisers often attempt to manipulate public perception using emotional imagery."
+  },
+  {
+   "w": "tabloid",
+   "uz": "sariq matbuot",
+   "ex": "Tabloid publications frequently prioritize celebrity gossip over serious international affairs."
+  },
+  {
+   "w": "commentary",
+   "uz": "sharh, tahliliy mulohaza",
+   "ex": "The live broadcast featured insightful political commentary from veteran journalists."
   }
  ],
  "writing": [
@@ -1734,7 +1847,9 @@
   "In many countries, fast food is becoming cheaper and more accessible than traditional, healthy meals. Some people believe that governments should impose higher taxes on unhealthy food products to discourage people from buying them. To what extent do you agree or disagree?",
   "A significant amount of food produced globally is lost or wasted every year before it reaches consumers. What are the main causes of this food waste, and what solutions can governments and individuals implement to address this issue?",
   "Some people believe that professional athletes earn far too much money compared to other essential workers, such as teachers and doctors. To what extent do you agree or disagree?",
-  "In many countries, fewer young people are participating in sports today than in the past. What are the main causes of this trend, and what measures can be taken to encourage more youth participation in physical activities?"
+  "In many countries, fewer young people are participating in sports today than in the past. What are the main causes of this trend, and what measures can be taken to encourage more youth participation in physical activities?",
+  "Some people believe that the media should focus more on broadcasting positive news rather than tragedies and crimes, as negative coverage has a harmful effect on society. To what extent do you agree or disagree?",
+  "In many parts of the world, public trust in traditional news media has declined significantly in recent years. What are the causes of this lack of trust, and what solutions can be implemented to address this problem?"
  ],
  "speaking": [
   "Describe a teacher who influenced you.\nYou should say: who this person was, what they taught you, how they behaved in class, and explain why they influenced you.",
