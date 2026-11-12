@@ -423,6 +423,59 @@
     }
    ],
    "script": "Good morning, everyone. Today, we are analyzing the impact of automated algorithms on modern news consumption. Traditionally, editors determined the prominent stories based on public interest and journalistic integrity. However, contemporary digital platforms utilize complex engagement-driven algorithms that prioritize content based on user clicks and emotional triggers. While this personalization enhances user retention, it inadvertently creates echo chambers, where audiences are exposed exclusively to viewpoints that reinforce their pre-existing beliefs. Furthermore, local news outlets have suffered a dramatic decline in ad revenue, as major social media conglomerates now capture the vast majority of digital advertising spend. This financial shift has decimated investigative journalism at the regional level. Consequently, media literacy programs are becoming essential in secondary education, aiming to equip young citizens with the critical thinking skills needed to evaluate source credibility, distinguish sponsored content from objective reporting, and actively seek out diverse perspectives in an increasingly fragmented digital landscape."
+  },
+  {
+   "id": "lg20261112",
+   "title": "Talabalar uchun turar joy tanlovi",
+   "meta": "Audio · 4 ta savol",
+   "lv": 1,
+   "items": [
+    {
+     "q": "Which bill is NOT included in the rent for the Green Street apartment?",
+     "opts": [
+      "Internet",
+      "Electricity",
+      "Water",
+      "Gas"
+     ],
+     "ans": 1,
+     "exp": "Matnda suv va internet ijara narxiga kiritilgani, ammo elektr energiyasi (electricity) uchun alohida to'lash kerakligi aytilgan."
+    },
+    {
+     "q": "How much is the monthly rent for the room on Park Avenue?",
+     "opts": [
+      "£500",
+      "£450",
+      "£200",
+      "£320"
+     ],
+     "ans": 3,
+     "exp": "Park Avenuedagi xona narxi oyiga 320 funt sterling (three hundred and twenty pounds) ekanligi aniq ko'rsatilgan."
+    },
+    {
+     "q": "How many other students live in the house on Park Avenue?",
+     "opts": [
+      "One",
+      "Two",
+      "Three",
+      "Four"
+     ],
+     "ans": 1,
+     "exp": "Matnda talaba oshxona va mehmonxonani yana boshqa ikkita talaba (two other students) bilan bo'lishishi aytilgan."
+    },
+    {
+     "q": "How can a student reach the library from Park Avenue in five minutes?",
+     "opts": [
+      "By walking",
+      "By bicycle",
+      "By bus",
+      "By car"
+     ],
+     "ans": 0,
+     "exp": "Matnda kutubxonagacha masofa piyoda besh daqiqalik yo'l (five-minute walk) ekani ta'kidlangan."
+    }
+   ],
+   "script": "Hello Mark, welcome to the student housing office. I have found two possible places for you near the campus. The first option is a studio apartment on Green Street. It is very modern and costs four hundred and fifty pounds per month. Water and internet are included in the price, but you must pay for electricity separately. It also has a small balcony. The second option is a shared house on Park Avenue. You would have your own bedroom, but you would share the kitchen and living room with two other students. This room is cheaper, at three hundred and twenty pounds monthly, and all utility bills are fully covered. The best thing about Park Avenue is that it is just a five-minute walk to the university library, whereas the Green Street apartment is twenty minutes away by bus. Both places are available starting from next Monday."
   }
  ],
  "reading": [
@@ -781,6 +834,57 @@
    ],
    "text": "In the contemporary digital ecology, the traditional bastions of Fourth Estate journalism face unprecedented disintermediation. The proliferation of algorithmic content curation has systematically recalibrated editorial autonomy across global media conglomerates. Historically, legacy newsrooms functioned as primary arbiters of public discourse, deploying normative ethical standards to determine agenda-setting priorities. However, aggregate engagement metrics and real-time behavioral surveillance now dictate programmatic distribution pathways, thereby subordinating nuanced investigative depth to the immediate gratification of visceral user response. This systemic recalibration has simultaneously catalyzed a profound crisis of epistemic veracity. As generative synthetic media and algorithmic feedback loops proliferate, the ontological boundary between empirically grounded reportage and speculative provocation becomes increasingly blurred. While technological proponents assert that decentralized digital platforms democratize narrative production, critical media theorists contend that hyper-commercialized algorithmic imperatives reinforce socio-cognitive silos, effectively radicalizing partisan divisions. Furthermore, the relentless acceleration of the 24-hour news cycle has drastically compressed verification windows, compelling reporters to prioritize publishing velocity over meticulous factual corroboration. Without institutional reform to curb sensationalist algorithms, independent journalism risks devolving into a mere vehicle for algorithmic optimization rather than civic enlightenment.",
    "en": "Algorithmic Disintermediation and the Crisis of Journalistic Autonomy"
+  },
+  {
+   "id": "rg20261112",
+   "title": "Ekologik toza uy-joylar",
+   "meta": "True / False / Not Given · 4 ta savol",
+   "lv": 1,
+   "items": [
+    {
+     "q": "Eco-friendly homes help families save money on their monthly electricity bills.",
+     "opts": [
+      "True",
+      "False",
+      "Not Given"
+     ],
+     "ans": 0,
+     "exp": "Matndagi \"...which helps families lower their monthly electricity bills\" degan jumlaga ko'ra, bu ma'lumot to'g'ri (True)."
+    },
+    {
+     "q": "Building an eco-friendly house is cheaper at first than building a traditional home.",
+     "opts": [
+      "True",
+      "False",
+      "Not Given"
+     ],
+     "ans": 1,
+     "exp": "Matnda bunday uy qurish boshida qimmatroq turishi aytilgan: \"...requires a higher initial investment compared to traditional homes\" (False)."
+    },
+    {
+     "q": "Most governments provide financial grants to help people build eco-friendly homes.",
+     "opts": [
+      "True",
+      "False",
+      "Not Given"
+     ],
+     "ans": 2,
+     "exp": "Matnda hukumatlar tomonidan moliyaviy yordam yoki grantlar berilishi haqida hech qanday ma'lumot keltirilmagan (Not Given)."
+    },
+    {
+     "q": "According to the text, how is collected rainwater used in eco-friendly homes?",
+     "opts": [
+      "For flushing toilets",
+      "For heating the house in winter",
+      "For cooking meals",
+      "For drinking directly without filtering"
+     ],
+     "ans": 0,
+     "exp": "Matnda yomg'ir suvi filtrlanib, bog'dorchilik va hojatxona suvini oqizish uchun ishlatilishi aytib o'tilgan: \"...used for gardening or flushing toilets\"."
+    }
+   ],
+   "text": "In recent years, modern housing has changed significantly to meet the needs of growing urban populations. One popular trend is eco-friendly houses, which are designed to reduce damage to the environment. These homes often use solar panels on their roofs to generate clean energy from sunlight, which helps families lower their monthly electricity bills. Additionally, builders use recycled materials, such as reclaimed wood and metal, to construct the outer frames.\n\nAnother important feature of these houses is smart water management. Many eco-friendly homes have special rainwater collection systems. The collected water is filtered and used for gardening or flushing toilets, which saves a large amount of fresh water every year. Furthermore, the insulation in these buildings is made of natural fibers. This keeps the interior warm during winter and cool during summer, reducing the reliance on artificial heating and cooling systems.\n\nAlthough building an eco-friendly house requires a higher initial investment compared to traditional homes, many homeowners believe it is worth the cost. Over time, the lower utility costs compensate for the high starting price. Furthermore, living in such houses contributes positively to global climate action. As technology advances, eco-friendly homes are expected to become more affordable and common in many cities around the world.",
+   "en": "Eco-Friendly Housing"
   }
  ],
  "grammar": [
@@ -1189,6 +1293,69 @@
      ],
      "ans": 0,
      "exp": "'Inasmuch as' bog'lovchisi akademik ingliz tilida 'chunki' yoki 'sababli' (since/because) ma'nosini anglatib, sababni asoslash uchun ishlatiladi."
+    }
+   ]
+  },
+  {
+   "id": "gg20261112",
+   "title": "Present Perfect va Past Simple: 1-daraja",
+   "meta": "Present Perfect vs Past Simple · 5 ta savol",
+   "lv": 1,
+   "items": [
+    {
+     "q": "I ___ my keys yesterday, so I couldn't get into the house.",
+     "opts": [
+      "have lost",
+      "am losing",
+      "lost",
+      "lose"
+     ],
+     "ans": 2,
+     "exp": "Gapda 'yesterday' (kecha) kabi aniq o'tgan vaqt ko'rsatgichi borligi uchun Past Simple (lost) ishlatiladi."
+    },
+    {
+     "q": "She ___ in London for three years, and she still lives there now.",
+     "opts": [
+      "lived",
+      "has lived",
+      "was living",
+      "lives"
+     ],
+     "ans": 1,
+     "exp": "Ish-harakat o'tmishda boshlanib, hozir ham davom etayotgani sababli Present Perfect (has lived) ishlatiladi."
+    },
+    {
+     "q": "___ you ever visited the National Museum in Tashkent?",
+     "opts": [
+      "Were",
+      "Do",
+      "Have",
+      "Did"
+     ],
+     "ans": 2,
+     "exp": "Insonning hayotiy tajribasi haqida so'rashda va 'ever' so'zi qatnashganda Present Perfect (Have you visited) qo'llaniladi."
+    },
+    {
+     "q": "Shakespeare ___ many famous plays, including 'Hamlet'.",
+     "opts": [
+      "wrote",
+      "is writing",
+      "writes",
+      "has written"
+     ],
+     "ans": 0,
+     "exp": "Shekspir hozir hayot emas va uning asarlari o'tmishda tugallangan tarixiy fakt bo'lgani uchun Past Simple (wrote) ishlatiladi."
+    },
+    {
+     "q": "I can't find my phone. ___ you seen it anywhere?",
+     "opts": [
+      "Do",
+      "Did",
+      "Are",
+      "Have"
+     ],
+     "ans": 3,
+     "exp": "O'tmishda sodir bo'lgan hodisaning natijasi hozirgi zamonga ta'sir qilayotgani uchun Present Perfect (Have you seen) ishlatiladi."
     }
    ]
   }
@@ -1828,6 +1995,56 @@
    "w": "commentary",
    "uz": "sharh, tahliliy mulohaza",
    "ex": "The live broadcast featured insightful political commentary from veteran journalists."
+  },
+  {
+   "w": "dwelling",
+   "uz": "turar joy, maskan",
+   "ex": "The government launched a program to improve the living conditions of every substandard dwelling in the region."
+  },
+  {
+   "w": "residential",
+   "uz": "turar joyga oid, aholi yashaydigan",
+   "ex": "City planners decided to convert the abandoned industrial district into a quiet residential zone."
+  },
+  {
+   "w": "renovation",
+   "uz": "ta'mirlash, qayta tiklash",
+   "ex": "The historic apartment building required extensive renovation to comply with modern safety standards."
+  },
+  {
+   "w": "tenant",
+   "uz": "ijarachi",
+   "ex": "The landlord agreed to lower the monthly payment if the tenant signed a long-term lease."
+  },
+  {
+   "w": "mortgage",
+   "uz": "ipoteka, uy-joy krediti",
+   "ex": "Rising interest rates have made it increasingly difficult for young couples to secure an affordable mortgage."
+  },
+  {
+   "w": "overcrowded",
+   "uz": "haddan tashqari tiqilinch, gavjum",
+   "ex": "Rapid urban growth often forces lower-income families to reside in severely overcrowded conditions."
+  },
+  {
+   "w": "subsidized",
+   "uz": "subsidiyalangan, davlat ko'magidagi",
+   "ex": "The local council provides subsidized housing options for residents who cannot afford market rental rates."
+  },
+  {
+   "w": "eviction",
+   "uz": "uydan majburan ko'chirish",
+   "ex": "Stricter tenant protection laws were introduced to prevent arbitrary eviction during economic crises."
+  },
+  {
+   "w": "demolish",
+   "uz": "buzib tashlamoq",
+   "ex": "Authorities decided to demolish the dilapidated towers and build sustainable housing complexes instead."
+  },
+  {
+   "w": "vacant",
+   "uz": "bo'sh, qarovsiz",
+   "ex": "Campaigners argue that vacant buildings in central areas should be converted into social housing."
   }
  ],
  "writing": [
@@ -1849,7 +2066,9 @@
   "Some people believe that professional athletes earn far too much money compared to other essential workers, such as teachers and doctors. To what extent do you agree or disagree?",
   "In many countries, fewer young people are participating in sports today than in the past. What are the main causes of this trend, and what measures can be taken to encourage more youth participation in physical activities?",
   "Some people believe that the media should focus more on broadcasting positive news rather than tragedies and crimes, as negative coverage has a harmful effect on society. To what extent do you agree or disagree?",
-  "In many parts of the world, public trust in traditional news media has declined significantly in recent years. What are the causes of this lack of trust, and what solutions can be implemented to address this problem?"
+  "In many parts of the world, public trust in traditional news media has declined significantly in recent years. What are the causes of this lack of trust, and what solutions can be implemented to address this problem?",
+  "In many large cities around the world, there is a severe shortage of affordable housing for young families. What are the primary reasons for this issue, and what solutions can be implemented to solve it?",
+  "Some people believe that it is the responsibility of national governments to provide housing for all citizens, while others argue that individuals should be entirely responsible for finding and paying for their own accommodation. Discuss both views and give your own opinion."
  ],
  "speaking": [
   "Describe a teacher who influenced you.\nYou should say: who this person was, what they taught you, how they behaved in class, and explain why they influenced you.",
