@@ -2045,6 +2045,56 @@
    "w": "vacant",
    "uz": "bo'sh, qarovsiz",
    "ex": "Campaigners argue that vacant buildings in central areas should be converted into social housing."
+  },
+  {
+   "w": "accommodate",
+   "uz": "turar joy bilan ta'minlamoq, joylashtirmoq",
+   "ex": "The new apartment complex was built to accommodate over five hundred families."
+  },
+  {
+   "w": "affordability",
+   "uz": "hamyonboplik, sotib olish imkoniyati",
+   "ex": "The rising cost of living has severely impacted housing affordability in major cities."
+  },
+  {
+   "w": "lease",
+   "uz": "ijara shartnomasi, ijaraga olmoq",
+   "ex": "They signed a two-year lease for a flat located near the city center."
+  },
+  {
+   "w": "premises",
+   "uz": "bino va uning hududi",
+   "ex": "Smoking is strictly prohibited anywhere on the housing premises."
+  },
+  {
+   "w": "refurbishment",
+   "uz": "ta'mirlash, yangilash",
+   "ex": "The historical building underwent extensive refurbishment before being opened to new residents."
+  },
+  {
+   "w": "tenure",
+   "uz": "egalik qilish shakli (turar joyga)",
+   "ex": "Security of housing tenure is crucial for the social stability of low-income households."
+  },
+  {
+   "w": "suburbs",
+   "uz": "shahar atrofi",
+   "ex": "Many young families prefer living in the suburbs due to lower housing costs and cleaner air."
+  },
+  {
+   "w": "landlord",
+   "uz": "uy egasi (ijaraga beruvchi)",
+   "ex": "The landlord agreed to repair the heating system before the winter started."
+  },
+  {
+   "w": "high-rise",
+   "uz": "ko'p qavatli bino",
+   "ex": "The government plans to construct several high-rise towers to address the housing shortage."
+  },
+  {
+   "w": "estate",
+   "uz": "turar joy majmuasi, mol-mulk",
+   "ex": "The local council built a modern housing estate to provide shelter for factory workers."
   }
  ],
  "writing": [
@@ -2068,7 +2118,9 @@
   "Some people believe that the media should focus more on broadcasting positive news rather than tragedies and crimes, as negative coverage has a harmful effect on society. To what extent do you agree or disagree?",
   "In many parts of the world, public trust in traditional news media has declined significantly in recent years. What are the causes of this lack of trust, and what solutions can be implemented to address this problem?",
   "In many large cities around the world, there is a severe shortage of affordable housing for young families. What are the primary reasons for this issue, and what solutions can be implemented to solve it?",
-  "Some people believe that it is the responsibility of national governments to provide housing for all citizens, while others argue that individuals should be entirely responsible for finding and paying for their own accommodation. Discuss both views and give your own opinion."
+  "Some people believe that it is the responsibility of national governments to provide housing for all citizens, while others argue that individuals should be entirely responsible for finding and paying for their own accommodation. Discuss both views and give your own opinion.",
+  "In many major cities around the world, a growing number of people are unable to afford suitable housing. What are the main causes of this problem, and what solutions can governments implement to address it?",
+  "Some people believe that governments should demolish old, historical buildings to build new high-density housing, while others argue that these historic structures should be preserved at all costs. Discuss both views and give your own opinion."
  ],
  "speaking": [
   "Describe a teacher who influenced you.\nYou should say: who this person was, what they taught you, how they behaved in class, and explain why they influenced you.",
