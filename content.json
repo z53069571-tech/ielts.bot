@@ -476,6 +476,59 @@
     }
    ],
    "script": "Hello Mark, welcome to the student housing office. I have found two possible places for you near the campus. The first option is a studio apartment on Green Street. It is very modern and costs four hundred and fifty pounds per month. Water and internet are included in the price, but you must pay for electricity separately. It also has a small balcony. The second option is a shared house on Park Avenue. You would have your own bedroom, but you would share the kitchen and living room with two other students. This room is cheaper, at three hundred and twenty pounds monthly, and all utility bills are fully covered. The best thing about Park Avenue is that it is just a five-minute walk to the university library, whereas the Green Street apartment is twenty minutes away by bus. Both places are available starting from next Monday."
+  },
+  {
+   "id": "lg20261113",
+   "title": "Shahar jamoat transportidagi yangiliklar",
+   "meta": "Audio · 4 ta savol",
+   "lv": 2,
+   "items": [
+    {
+     "q": "How often will buses on routes 12 and 15 arrive under the new schedule?",
+     "opts": [
+      "Every 12 minutes",
+      "Every 15 minutes",
+      "Every 8 minutes",
+      "Every 10 minutes"
+     ],
+     "ans": 2,
+     "exp": "Matnda aytilishicha, avtobuslar yangi jadval bo'yicha 12 daqiqa o'rniga har 8 daqiqada yetib keladi."
+    },
+    {
+     "q": "When will cash payments on buses be completely discontinued?",
+     "opts": [
+      "In two years",
+      "By the end of the year",
+      "Next month",
+      "Next Monday"
+     ],
+     "ans": 2,
+     "exp": "Matnga ko'ra, avtobuslarda naqd pul to'lovlari kelasi oydan boshlab to'liq bekor qilinadi."
+    },
+    {
+     "q": "What two locations are connected by the new modern tram line?",
+     "opts": [
+      "The airport and the city center",
+      "The university and the central train station",
+      "Route 12 and Route 15 stops",
+      "The central lines and main bus stop"
+     ],
+     "ans": 1,
+     "exp": "Yangi tramvay liniyasi universitet va markaziy poyezd stansiyasini o'zaro bog'laydi."
+    },
+    {
+     "q": "How much discount do students receive on the tram line with a valid ID?",
+     "opts": [
+      "25 percent",
+      "50 percent",
+      "15 percent",
+      "75 percent"
+     ],
+     "ans": 1,
+     "exp": "Yaroqli talabalik guvohnomasiga ega bo'lgan talabalar uchun tramvayda 50 foiz chegirma beriladi."
+    }
+   ],
+   "script": "Good morning, everyone, and welcome to this briefing on the city's updated transport system. Starting next Monday, the main bus routes, particularly routes 12 and 15, will operate on a new schedule to reduce delays during peak hours. Buses will now arrive every eight minutes instead of twelve. In addition, the city council is launching a fleet of electric buses, which will completely replace the old diesel models on central lines by the end of the year. To make travel smoother, passengers are encouraged to use the new mobile application for purchasing digital tickets. Cash payments on buses will be phased out entirely starting next month. Furthermore, the modern tram line connecting the university to the central train station is finally open after two years of construction. The tram offers a fifty percent discount for students carrying a valid student ID card. Thank you for your attention, and please check our website for full route maps."
   }
  ],
  "reading": [
@@ -885,6 +938,57 @@
    ],
    "text": "In recent years, modern housing has changed significantly to meet the needs of growing urban populations. One popular trend is eco-friendly houses, which are designed to reduce damage to the environment. These homes often use solar panels on their roofs to generate clean energy from sunlight, which helps families lower their monthly electricity bills. Additionally, builders use recycled materials, such as reclaimed wood and metal, to construct the outer frames.\n\nAnother important feature of these houses is smart water management. Many eco-friendly homes have special rainwater collection systems. The collected water is filtered and used for gardening or flushing toilets, which saves a large amount of fresh water every year. Furthermore, the insulation in these buildings is made of natural fibers. This keeps the interior warm during winter and cool during summer, reducing the reliance on artificial heating and cooling systems.\n\nAlthough building an eco-friendly house requires a higher initial investment compared to traditional homes, many homeowners believe it is worth the cost. Over time, the lower utility costs compensate for the high starting price. Furthermore, living in such houses contributes positively to global climate action. As technology advances, eco-friendly homes are expected to become more affordable and common in many cities around the world.",
    "en": "Eco-Friendly Housing"
+  },
+  {
+   "id": "rg20261113",
+   "title": "Zamonaviy Yuqori Tezlikdagi Temir Yullari",
+   "meta": "True / False / Not Given · 4 ta savol",
+   "lv": 2,
+   "items": [
+    {
+     "q": "High-speed trains produce lower greenhouse gas emissions per passenger than commercial airplanes.",
+     "opts": [
+      "True",
+      "False",
+      "Not Given"
+     ],
+     "ans": 0,
+     "exp": "Matndagi \"Electric trains generate far fewer greenhouse gas emissions per passenger compared to commercial aircraft\" jumlasiga ko'ra, bu tasdiq to'g'ri (True)."
+    },
+    {
+     "q": "High-speed rail stations are generally built in distant suburbs to save land costs.",
+     "opts": [
+      "True",
+      "False",
+      "Not Given"
+     ],
+     "ans": 1,
+     "exp": "Matnda bekatlar uzoq shahar chetlarida emas, balki shahar markazlarida joylashgani aytilgan (\"stations are usually situated in city centers rather than distant suburbs\"), shuning uchun bu tasdiq noto'g me (False)."
+    },
+    {
+     "q": "Japan plans to replace all traditional trains with high-speed trains by 2030.",
+     "opts": [
+      "True",
+      "False",
+      "Not Given"
+     ],
+     "ans": 2,
+     "exp": "Matnda Yaponiyaning 2030-yilgacha barcha poezdlarni almashtirish rejasi haqida hech qanday ma'lumot berilmagan (Not Given)."
+    },
+    {
+     "q": "According to the passage, what is one major drawback of building high-speed rail networks?",
+     "opts": [
+      "High initial infrastructure and maintenance costs",
+      "Increased air pollution in city centers",
+      "Inability to travel faster than 250 kilometers per hour",
+      "Lower passenger capacity compared to cars"
+     ],
+     "ans": 0,
+     "exp": "Matnda dastlabki infratuzilma va ta'mirlash xarajatlari juda yuqori ekanligi ta'kidlangan (\"Initial infrastructure costs... Maintenance expenses are also notably higher\"), shuning uchun 'a' javobi to'g'ri."
+    }
+   ],
+   "text": "High-speed rail systems have transformed modern public transportation by offering a faster and more environmentally friendly alternative to traditional air and road travel. First introduced in Japan in the 1964 Tokyo Olympics with the famous Shinkansen, high-speed trains have now spread across Europe and Asia. These trains typically operate at speeds exceeding 250 kilometers per hour, significantly reducing journey times between major urban centers.\n\nOne of the main advantages of high-speed rail is its energy efficiency. Electric trains generate far fewer greenhouse gas emissions per passenger compared to commercial aircraft or personal motor vehicles. Furthermore, stations are usually situated in city centers rather than distant suburbs, saving commuters valuable time on ground transfers.\n\nHowever, the construction of high-speed rail networks presents significant financial challenges. Initial infrastructure costs, including laying specialized tracks, building tunnels, and purchasing advanced rolling stock, can run into billions of dollars. Maintenance expenses are also notably higher than those for standard rail networks. Despite these steep investments, governments around the world continue to expand their high-speed networks, viewing them as essential infrastructure for sustainable economic growth and reduced urban congestion in the twenty-first century.",
+   "en": "Modern High-Speed Rail Systems"
   }
  ],
  "grammar": [
@@ -1356,6 +1460,69 @@
      ],
      "ans": 3,
      "exp": "O'tmishda sodir bo'lgan hodisaning natijasi hozirgi zamonga ta'sir qilayotgani uchun Present Perfect (Have you seen) ishlatiladi."
+    }
+   ]
+  },
+  {
+   "id": "gg20261113",
+   "title": "Shart Ergash Gaplar (Conditionals - Level 2/3) bo'yicha Test",
+   "meta": "Conditionals · 5 ta savol",
+   "lv": 2,
+   "items": [
+    {
+     "q": "If the government ___ more in renewable energy a decade ago, the current energy crisis would not be so severe today.",
+     "opts": [
+      "would invest",
+      "had invested",
+      "invested",
+      "has invested"
+     ],
+     "ans": 1,
+     "exp": "Bu aralash (mixed) shart ergash gap bo'lib, o'tmishdagi shartning (Past Perfect) hozirgi zamondagi oqibatini ko'rsatadi. Shuning uchun 'had invested' to'g'ri javob."
+    },
+    {
+     "q": "___ the research team received the grant earlier, they could have completed the clinical trials before the deadline.",
+     "opts": [
+      "Were",
+      "Had",
+      "If",
+      "Should"
+     ],
+     "ans": 1,
+     "exp": "Uchinchi shart ergash gapda 'if' tushirib qoldirilganda rasmiy uslubda inversiya yuz beradi va 'Had' ega oldiga o'tadi."
+    },
+    {
+     "q": "If the global temperature ___ to rise by another two degrees, coastal cities would face unprecedented flooding.",
+     "opts": [
+      "were",
+      "is",
+      "has been",
+      "will be"
+     ],
+     "ans": 0,
+     "exp": "Ehtimoli kam bo'lgan rasmiy va gipotetik kelajak voqealari uchun 'if + subject + were + to-infinitive' strukturasi ishlatiladi."
+    },
+    {
+     "q": "Had she not been wearing a helmet when she fell, she ___ seriously injured.",
+     "opts": [
+      "was",
+      "might have been",
+      "will be",
+      "would be"
+     ],
+     "ans": 1,
+     "exp": "O'tmishdagi inkordagi gipotetik holatning ehtimoliy natijasini ko'rsatish uchun bosh gapda 'might have + V3' ishlatiladi."
+    },
+    {
+     "q": "If he ___ so fluent in English, he would not have been offered the position as head of international relations last month.",
+     "opts": [
+      "is not",
+      "were not",
+      "wasn't",
+      "had not been"
+     ],
+     "ans": 1,
+     "exp": "Doimiy holat/qobiliyat (hozirgi zamon sharti) o'tmishdagi natijaga ta'sir qilganini ko'rsatuvchi aralash shart ergash gapda 'were not' qo'llaniladi."
     }
    ]
   }
@@ -2095,6 +2262,56 @@
    "w": "estate",
    "uz": "turar joy majmuasi, mol-mulk",
    "ex": "The local council built a modern housing estate to provide shelter for factory workers."
+  },
+  {
+   "w": "fleet",
+   "uz": "transport parki",
+   "ex": "The logistics company expanded its fleet of electric delivery vehicles to reduce carbon emissions."
+  },
+  {
+   "w": "freight",
+   "uz": "yuk tashish",
+   "ex": "The new railway line will significantly increase the country's capacity for moving heavy freight."
+  },
+  {
+   "w": "gridlock",
+   "uz": "yo'ldagi to'liq tirbandlik",
+   "ex": "Severe snowstorms caused complete gridlock across the central highway network."
+  },
+  {
+   "w": "transit",
+   "uz": "tranzit, jamoat transporti qatnovi",
+   "ex": "The city is investing in modern transit systems to encourage people to leave their cars at home."
+  },
+  {
+   "w": "bypass",
+   "uz": "aylanma yo'l",
+   "ex": "A new bypass was constructed to redirect heavy trucks away from the historic city center."
+  },
+  {
+   "w": "thoroughfare",
+   "uz": "asosiy qatnov yo'li",
+   "ex": "The main thoroughfare was temporarily closed to allow for urgent road repairs."
+  },
+  {
+   "w": "motorist",
+   "uz": "avtomobil haydovchisi",
+   "ex": "Motorists were advised to expect long delays due to scheduled highway construction."
+  },
+  {
+   "w": "intersection",
+   "uz": "chorraha",
+   "ex": "New traffic signals were installed at the dangerous intersection to reduce accidents."
+  },
+  {
+   "w": "logistics",
+   "uz": "logistika",
+   "ex": "Efficient logistics are crucial for ensuring that goods reach markets without unnecessary delays."
+  },
+  {
+   "w": "mode",
+   "uz": "tur, usul",
+   "ex": "Cycling is becoming a preferred mode of transport for short daily trips in urban areas."
   }
  ],
  "writing": [
@@ -2120,7 +2337,9 @@
   "In many large cities around the world, there is a severe shortage of affordable housing for young families. What are the primary reasons for this issue, and what solutions can be implemented to solve it?",
   "Some people believe that it is the responsibility of national governments to provide housing for all citizens, while others argue that individuals should be entirely responsible for finding and paying for their own accommodation. Discuss both views and give your own opinion.",
   "In many major cities around the world, a growing number of people are unable to afford suitable housing. What are the main causes of this problem, and what solutions can governments implement to address it?",
-  "Some people believe that governments should demolish old, historical buildings to build new high-density housing, while others argue that these historic structures should be preserved at all costs. Discuss both views and give your own opinion."
+  "Some people believe that governments should demolish old, historical buildings to build new high-density housing, while others argue that these historic structures should be preserved at all costs. Discuss both views and give your own opinion.",
+  "Some people believe that governments should spend money on building high-speed rail networks between major cities. Others think that money would be better spent on improving local public transport systems, such as buses and trams. Discuss both views and give your opinion.",
+  "In many cities around the world, traffic congestion has reached unprecedented levels, leading to severe air pollution and lost productivity. What are the main causes of this problem, and what practical solutions can be implemented to address it?"
  ],
  "speaking": [
   "Describe a teacher who influenced you.\nYou should say: who this person was, what they taught you, how they behaved in class, and explain why they influenced you.",
